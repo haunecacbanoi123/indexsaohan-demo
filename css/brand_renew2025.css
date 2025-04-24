@@ -410,7 +410,6 @@ body.main > .maxframe {
     padding-bottom: 10px; /* Thêm padding dưới để tránh nội dung bị che bởi thanh cuộn */
     margin-left: 65px;
 }
-
 .event-card {
     background-color: #faefe0; /* Màu nền cho mỗi card (có thể thay đổi) */
     border-radius: 8px; /* Bo tròn góc card */
