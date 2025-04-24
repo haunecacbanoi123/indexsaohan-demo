@@ -1,0 +1,1102 @@
+/*cart*/
+.list_ctrl_wrap {
+	padding: 0.5rem 0;
+}
+
+.list_ctrl_wrap .left{
+	min-width:10em;
+	white-space:nowrap;
+}
+
+.list_ctrl_wrap .right{
+	min-width:10em;
+	text-align:right;
+}
+
+/*ì„œë¹„ìŠ¤ ê°€ê²© */
+.serve_price_wrap {
+	position: relative;
+}
+
+.serve_price_wrap .serve {
+	padding-right: 10.5em;
+}
+
+.serve_price_wrap .price {
+	position: absolute;
+	top: 1rem;
+	right: 0rem;
+}
+
+/*ê³ ê°ì •ë³´ìž…ë ¥*/
+.memo-byte-num {
+	text-align: right;
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+/*isCounsel*/
+.counsl_wrap {
+	position: relative;
+}
+
+.counsl_wrap .q {
+	padding-right: 8.5rem;
+}
+
+.counsl_wrap .aw {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+/* ì„±ë³„ í…ìŠ¤íŠ¸ */
+.__counsl_wrap .wsnwp {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #A73439;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.__counsl_wrap .wsnwp > label {
+	width: 50%;
+	text-align: center;
+}
+
+/*ì´ìš©ì•½ê´€*/
+.accept_wrap {
+	position:relative;
+	width: 100%;
+}
+
+.accept_wrap .accept {
+	padding-right: 5em;
+}
+
+.accept_wrap > a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: underline;
+}
+
+/*package box wrap*/
+.pk_box_wrap {
+	position: relative;
+}
+.pk_box_wrap .tit {
+	padding: 0 3.4rem 0.5rem 0;
+}
+.pk_box_wrap .tit strong {
+	display: block;
+	margin-bottom: 0.2em;
+}
+.pk_box_wrap .ar_ib {
+	/*allways right icon btn*/
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+/*arccodion box*/
+.accordionWrap {
+	position: relative;
+}
+.serAdd_wrap .ac_body {
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+.serAdd_wrap ul .rp_box .rp {
+	text-align: right;
+}
+
+/*right price box*/
+.rp_box {
+	position: relative;
+	padding: 0.5rem 1rem;
+}
+.rp_box .tit {
+	padding-right: 6.5rem;
+}
+.rp_box .rp {
+	position: absolute;
+	top: 0.45em;
+	right: 1rem;
+}
+.oi-sub-txt,
+span.oi-sub-txt {
+	display: block;
+	font-size: 13.5px;
+	color: #757575;
+}
+
+/*ë‚˜ì¤‘ì— ìˆ˜ì •*/
+.serAdd_wrap .p_right {
+	position: absolute;
+	background-color: #ff5050;
+	color: white;
+	padding: 0.1em 0.5em;
+	border-radius: 50em;
+	z-index: 10;
+	font-size: 85%;
+	line-height: 1;
+	top: 0.5rem;
+	right: 0.5rem;
+}
+
+
+/*ë¡œë”© 0.3ì´ˆ*/
+.load-cover {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	padding-top: 30%;
+	background-color: #f5f5f5;
+	z-index: 10;
+}
+.add-reservation-load {
+	background-color: #fff;
+}
+.add-reservation-load .inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.add-reservation-load .fs_body {
+	background-color: #ececec;
+}
+
+/*reservation*/
+.rsb-section {
+	position: relative;
+	height: 830px;
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+.rsb-section .rb-top {
+	height: 490px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.rsb-section .rb-tb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.rb-tit-box {
+	position: relative;
+	padding: 1rem 1rem 0;
+}
+.rb-tit-box h3 {
+	position: relative;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #666;
+}
+.rb-tit-box h3:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1.5em;
+	height: 2px;
+	background-color: #777;
+}
+.rsb-section .rbs-inner {
+	padding: 2.5rem 1rem 1rem;
+}
+.reservation-box .rbs-inner {
+	padding-top: 2rem;
+}
+
+.reservation-box .rbs-inner.c_scroll{
+	overflow-y: scroll;
+	height: 230px;
+}
+.rsb-section .ui-datepicker .ui-datepicker-title{
+	font-weight: 400;
+	font-family: 'Noto Sans KR', Sans-serif;
+}
+.reservation-box .day-box {
+	position: relative;
+	padding: 1.5rem 1rem 3.5rem;
+}
+.day-box .txt-info {
+	display: none;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-weight: 300;
+	font-size: 0.94rem;
+}
+.unable-date .fb-info {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+}
+.unable-date .fb-info .fb-txt {
+	color: #222;
+	margin-top: 30px;
+}
+.unable-date .fb-info .fb-txt .__point {
+	color: #a73439;
+}
+.unable-time.fix-height {
+	height: 200px;
+}
+.rs-time-box {
+	position: relative;
+	padding-top: 1rem;
+}
+.reservation-box .time-box-scoll {
+	position: relative;
+	overflow-Y: scroll;
+	height: 260px;
+}
+.change .reservation-box .time-box-scoll{
+	height: 175px;
+}
+.reservation-box .time-box {
+	padding: 1rem 0.5rem 0.5rem 1rem;
+}
+.reservation-box .time-box .swiper-slide {
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.reservation-box .form-box,
+.reservation-box .mb {
+	margin-bottom: 1.4rem;
+}
+.reservation-box .form-box:last-child {
+	margin-bottom: 0;
+}
+.rb-tb .reservation-box {
+	position: absolute;
+	/* top: 51px; */
+	top: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 1rem;
+}
+.rb-tb .main-item-info {
+	position: relative;
+	height: 100%;
+}
+.rb-tb .main-item-info .w_top_select {
+	height: calc(100% - 155px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.rb-tb .w_select_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.rb-tb .w_select_bottom .notice{
+	padding-bottom: 25px;
+	color: var(--primary);
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.2;
+}
+.rb-tb .w_select_bottom .notice span:first-child{
+	width: 22px;
+	height: 22px;
+	margin-right: 0.25rem;
+}
+.rb-tb .w_select_bottom .notice span:last-child{
+	padding-top: 3px;
+}
+.w_select_bottom.add-service-btn > .both_end {
+	margin-bottom: 12px;
+}
+.w_select_bottom.add-service-btn .n-click-evt {
+	/*width: 48%;*/
+	width: calc((100% - 14px) / 2);
+	padding: 10px 15px;
+	border: 1px solid #625f60;
+	border-radius: 50em;
+}
+.w_select_bottom.add-service-btn .n-click-evt span {
+	display: inline-block;
+	padding-left: 5px;
+}
+.reservation-box .w_top_select .selt_info_wrap{
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+}
+.reservation-box .w_top_select .selt_info_wrap .selt {
+	padding-left: 10px;
+	padding-right: 0.5em;
+	width: 55%;
+}
+.reservation-box .w_top_select .selt_info_wrap .info{
+	position: static;
+	padding-right: 30px;
+	width: 45%;
+}
+.reservation-box .w_top_select .selt_info_wrap .info .txt_num{
+	font-size: 20px;
+	font-weight: 600;
+}
+.reservation-box .w_top_select .selt_info_wrap .info button{
+	top: 7px;
+}
+.w_top_select .service-list-wrap.no-price .selt_info_wrap .selt {
+	padding-right: 3rem;
+}
+.rsb-section .rb-bottom .btn_wrap{
+	width: 100%;
+	bottom: 0;
+}
+.rsb-section .rb-bottom .btn_wrap > button{
+	border-radius: 0;
+	font-size: 18px;
+	line-height: 3rem;
+	font-weight: 500;
+}
+.rsb-section .rb-bottom .btn_wrap > button,
+.rsb-section .rb-tb .btn_wrap > button,
+#fix_bottom .btn_wrap > button {
+	width: 100%;
+}
+.rsb-section .btn_wrap {
+	position: absolute;
+	width: calc(100% - 2rem);
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/*scroll*/
+/* width */
+.c_scroll::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+.c_scroll::-webkit-scrollbar-track:hover {
+	background: #e2e2e2;
+}
+
+/* Handle */
+.c_scroll::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 50em;
+}
+
+/* Handle on hover */
+.c_scroll::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/*add ticket*/
+.rb-tit-box .add-ticket-btn {
+	min-width: 160px;
+	position: absolute;
+	top: 0.6rem;
+	right: 1rem;
+}
+.rb-tit-box .add-ticket-btn.counsel{
+	top: 3.2rem;
+}
+
+/* event detail txt */
+.ev-duration {
+	font-size: 12px;
+	color: #A73439;
+}
+/* ì˜ˆì•½ì·¨ì†Œì‚¬ìœ  ëª¨ë‹¬ */
+.reason_modal{
+	background-color:rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	display: none;
+}
+.reason_modal .form-box{
+	width: 620px;
+	height: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+}
+.reason_modal .form-box > h2{
+	padding: 0.7rem 1.5rem;
+	border-bottom: 2px solid #a73439;
+}
+.reason_modal .form-box > .content{
+	padding: 1rem 1.5rem;
+}
+.reason_modal .form-box > .content .form-label{
+	padding: 1rem 0 0.3rem;
+	display: block;
+}
+.reason_modal .form-box > .content .btn_wrap{
+	margin-top: 1.5rem;
+	text-align: center;
+}
+
+.reason_modal .form-box > .content .btn_wrap > button{
+	width: 21%;
+	margin: 0 0.2rem;
+	float: none;
+	line-height: 1.5rem;
+}
+/* ì‹œìˆ ì¶”ê°€ - ê²°ì œì‹œìŠ¤í…œ */
+.serAdd_wrap .reser-info{
+	display: flex;
+	align-items: flex-start;
+}
+.serAdd_wrap .reser-info .online-payment-icon{
+	margin-bottom: 0;
+	margin-right: 0.5rem;
+}
+.serAdd_wrap .reser-info .txt-area{
+	max-width: 300px;
+}
+
+/* ì˜ˆì•½í™•ì¸/ë³€ê²½/ì·¨ì†Œ - ê²°ì œì‹œìŠ¤í…œ */
+.item-detail-wrap .menu_content_section .ac_body{
+	position: relative;
+}
+.item-detail-wrap .menu_content_section .__txt-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item-detail-wrap .menu_content_section .__txt-flex .__flex-wrap {
+	display: flex;
+	align-items: center;
+}
+.item-detail-wrap .menu_content_section .__txt-flex .__flex-wrap img {
+	width: 22px;
+	height: 22px;
+}
+.item-detail-wrap .menu_content_section .__txt-flex .__flex-wrap span {
+	display: block;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #999999;
+}
+.item-detail-wrap .menu_content_section .__txt-flex .__flex-wrap .txt_sub {
+	font-size: 12px;
+	font-weight: 500;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+	opacity: 1
+}
+.item-detail-wrap .menu_content_section .ac_body .notice th,
+.item-detail-wrap .menu_content_section .ac_body .notice td{
+	padding: 0;
+}
+.item-detail-wrap .menu_content_section .ac_body .notice td{
+	font-size: 12px;
+	color: #888888;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button{
+	margin-left: 10px;
+	border-radius: 50rem;
+	font-size: 13px;
+	padding: 7px 0;
+	width: 90px;
+	line-height: 1;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-basic{
+	background-color: transparent;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-basic:hover{
+	border: 1px solid #a73439;
+	background-color: #a73439;
+	color: #fff;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled{
+	/* position: relative; */
+	cursor: inherit;
+	border: 1px solid #CCCCCC;
+	background-color: transparent;
+	color: #AAAAAA;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip{
+	display: none;
+	background-color: #fff;
+	padding: 18px 15px 15px 18px;
+	border: 1px solid #707070;
+	text-align: left;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	color: #000000;
+	border-radius: 5px;
+	line-height: 1.4;
+	letter-spacing: -1px;
+}
+/* .item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip.cancel{
+
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip.done{
+	right: 90px;
+} */
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip::after,
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip::before{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	display: block;
+	width: 0;
+	right: 25px;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip::after{
+	border-color: #FFFFFF transparent;
+	z-index: 1;
+	top: -9px;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled .tool-tip::before{
+	border-color: #707070 transparent;
+	display: block;
+	z-index: 0;
+	top: -11px;
+}
+.item-detail-wrap .menu_content_section .ac_body .btn-wrap > button.btn-disabled.active .tool-tip{
+	display: block;
+}
+/* ê²°ì œì •ë³´, ê²°ì œì·¨ì†Œëª¨ë‹¬ */
+.ac_body .modal-wrap{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 303;
+	letter-spacing: -1px;
+}
+.ac_body .modal-wrap.on{
+	display: block;
+}
+.ac_body .modal-wrap .modal-inner{
+	position: relative;
+}
+.ac_body .modal-wrap .modal-inner .close-btn{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	padding: 0.53rem 0.33rem;
+}
+.ac_body .modal-wrap .modal-inner{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 1rem;
+	padding: 60px 50px;
+}
+.branch-renew .modal-wrap.payment-info-modal{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 303;
+}
+.branch-renew .modal-wrap.payment-info-modal.on{
+	display: block;
+}
+.branch-renew .modal-inner.payment-info-modal{
+	display: none;
+	top: 180px;
+	z-index: 304;
+	background-color: #F1F1F1;
+	width: 550px;
+	height: 500px;
+	padding: 60px 10px;
+	border-radius: 20px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 304;
+}
+.branch-renew .modal-inner.payment-info-modal.on{
+	display: block;
+}
+.ac_body .modal-wrap.payment-cancel-modal .modal-inner{
+	background-color: #fff;
+	width: 1000px;
+	height: 495px;
+}
+.branch-renew .modal-inner.payment-info-modal .content-list{
+	padding: 10px 35px;
+	overflow-y: auto;
+	height: 390px;
+}
+.branch-renew .modal-inner.payment-info-modal .content-list::-webkit-scrollbar {
+	width: 4px;
+}
+.branch-renew .modal-inner.payment-info-modal .content-list::-webkit-scrollbar-thumb {
+	background: #BBBBBB;
+	border-radius: 50em;
+}
+.branch-renew .modal-inner.payment-info-modal .content-list::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+.branch-renew .payment-info-modal .cont,
+.ac_body .modal-wrap .content-list .cont{
+	margin-bottom: 32px;
+}
+.branch-renew .payment-info-modal .cont:last-child,
+.ac_body .modal-wrap .content-list .cont:last-child{
+	margin-bottom: 0;
+}
+.branch-renew .payment-info-modal .content-list .tit-wrap,
+.ac_body .modal-wrap .content-list .tit-wrap{
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.branch-renew .payment-info-modal .content-list .modal-tit,
+.ac_body .modal-wrap .content-list .modal-tit{
+	font-size: 28px;
+	color: #222222;
+	margin: 0;
+	font-weight: bold;
+	line-height: 1;
+}
+.branch-renew .modal-inner.payment-info-modal .content-list .tit-wrap .desc,
+.ac_body .modal-wrap .content-list .tit-wrap .desc{
+	color: #999999;
+}
+.branch-renew .modal-inner.payment-info-modal .receipt-form{
+	border-radius: 5px;
+}
+.branch-renew .modal-inner.payment-info-modal .receipt-form,
+.ac_body .modal-wrap .receipt-form{
+	padding: 35px 20px 22px;
+	background-color: #fff;
+}
+.ac_body .modal-wrap.payment-cancel-modal .modal-inner .tbody-form{
+	height: 200px;
+	overflow-y: auto;
+}
+.ac_body .modal-wrap.payment-cancel-modal .modal-inner .tbody-form::-webkit-scrollbar {
+	width: 4px;
+}
+.ac_body .modal-wrap.payment-cancel-modal .modal-inner .tbody-form::-webkit-scrollbar-thumb {
+	background: #BBBBBB;
+	border-radius: 50em;
+}
+.ac_body .modal-wrap.payment-cancel-modal .modal-inner .tbody-form::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+.branch-renew .receipt-form .thead-form{
+	border-top: 1px dashed #aaa;
+	border-bottom: 1px dashed #aaa;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+.branch-renew .receipt-form .tbody-form{
+	padding: 0 10px;
+}
+.branch-renew .receipt-form .tfoot-form{
+	padding: 10px 10px 0;
+	margin-top: 10px;
+	border-top: 1px dashed #aaa;
+}
+.branch-renew .receipt-form .tr-form,
+.branch-renew .table-form .tr-form{
+	display: flex;
+}
+.branch-renew .cs-checkbox.cancel .tr-form .td-form,
+.branch-renew .tr-form.cancel .td-form{
+	color: #999999;
+	text-decoration: line-through;
+}
+.branch-renew .cs-checkbox.cancel .tr-form .td-form:last-child,
+.branch-renew .cs-checkbox.cancel .tr-form .td-form:nth-child(6),
+.branch-renew .tr-form.cancel .td-form:last-child{
+	text-decoration: none;
+}
+.branch-renew .cs-checkbox.cancel .tr-form .td-form:last-child{
+	color: #A73439;
+}
+.branch-renew .cs-checkbox.cancel label{
+	cursor: inherit;
+}
+.branch-renew .cs-checkbox.cancel label::before{
+	background-color: #E1E1E1;
+	border: 1px solid #E1E1E1;
+}
+.branch-renew .tr-form.txt-gray{
+	color: #999999;
+}
+.branch-renew .tr-form .td-form{
+	padding: 4px 0;
+	font-size: 16px;
+}
+.branch-renew .tr-form.surtax{
+	color: #999999;
+}
+.branch-renew .receipt-form .thead-form .td-form{
+	padding: 10px 0;
+}
+.branch-renew .receipt-form .tfoot-form .td-form{
+	color: #A73439;
+	font-weight: 700;
+}
+.branch-renew .tr-form .td-form.txt-center{
+	text-align: center;
+}
+.branch-renew .tr-form .td-form.txt-bold{
+	font-weight: 700;
+}
+.ac_body .modal-wrap.payment-cancel-modal .thead-form{
+	border-top: 2px solid #A73439;
+}
+.ac_body .modal-wrap.payment-cancel-modal .cs-checkbox{
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0 10px;
+}
+.ac_body .modal-wrap.payment-cancel-modal .cs-checkbox > label:before{
+	content: '';
+	top: 10px;
+}
+.ac_body .modal-wrap.payment-cancel-modal .tr-form .td-form{
+	padding: 10px 0;
+}
+.branch-renew .payment-info-modal .cont1 .tr-form .td-form:nth-child(1){
+	width: 45%;
+}
+.branch-renew .payment-info-modal .cont1 .tr-form .td-form:nth-child(2){
+	width: 10%;
+}
+.branch-renew .payment-info-modal .cont1 .tr-form .td-form:nth-child(3){
+	width: 30%;
+}
+.branch-renew .payment-info-modal .cont1 .tr-form .td-form:nth-child(4){
+	width: 15%;
+}
+.branch-renew .payment-info-modal .cont2 .tr-form{
+	justify-content: space-between;
+}
+.branch-renew .payment-info-modal .cont3 .tr-form .td-form:nth-child(1){
+	width: 65%;
+}
+.branch-renew .payment-info-modal .cont3 .tr-form .td-form:nth-child(2){
+	width: 10%;
+}
+.branch-renew .payment-info-modal .cont3 .tr-form .td-form:nth-child(3){
+	width: 25%;
+}
+
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(1){
+	width: 15%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(2){
+	width: 25%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(3){
+	width: 7%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(4){
+	width: 11%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(5){
+	width: 17%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(6){
+	width: 10%;
+}
+.ac_body .payment-cancel-modal .tr-form .td-form:nth-child(7){
+	width: 15%;
+}
+.ac_body .modal-wrap.payment-cancel-modal .cancel-btn-wrap{
+	position: absolute;
+	text-align: center;
+	bottom: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.ac_body .modal-wrap.payment-cancel-modal .cancel-btn-wrap > button{
+	border-radius: 50em;
+	min-width: 200px;
+	padding: 0.6rem 0;
+	margin: 0 5px;
+	font-size: 20px;
+}
+.ac_body .modal-wrap.payment-cancel-modal .cancel-btn-wrap > button:disabled,
+.ac_body .modal-wrap.payment-cancel-modal .cancel-btn-wrap > button[disabled]{
+	border: 1px solid #c9c9c9;
+	background-color: #c9c9c9;
+	color: #707070;
+	cursor: auto;
+}
+.ac_body .modal-wrap.payment-cancel-modal .cancel-btn-wrap .close-btn{
+	position: static;
+}
+.branch-renew .payment-info-modal .close-btn{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+/* confirm,alret íŒì—… */
+.type-confirm{
+	display: none;
+	position: fixed;
+}
+.type-confirm .modal-inner{
+	width: 600px;
+	background-color: #fff;
+}
+.type-confirm.active{
+	display: block;
+}
+.type-confirm .modal-inner .message,
+.type-confirm-alret .modal-inner .message{
+	font-size: 24px;
+	line-height: 1.3;
+	text-align: center;
+}
+.type-confirm-alret .modal-inner .message{
+	font-weight: 600;
+}
+.type-confirm-alret .modal-inner .message .desc{
+	padding-top: 1rem;
+	font-size: 18px;
+	font-weight: 400;
+}
+.type-confirm-alret{
+	display: none;
+	position: fixed;
+}
+.type-confirm-alret .modal-inner{
+	width: 600px;
+	background-color: #fff;
+}
+.type-confirm-alret.active{
+	display: block;
+}
+.type-confirm .bottom-btn-wrap,
+.type-confirm-alret .bottom-btn-wrap{
+	margin-top: 2rem;
+	text-align: center;
+}
+.type-confirm .bottom-btn-wrap > button,
+.type-confirm-alret .bottom-btn-wrap > button{
+	border-radius: 50em;
+	min-width: 200px;
+	padding: 0.6rem 0;
+	margin: 0 5px;
+	font-size: 20px;
+}
+.type-confirm .modal-inner .close-button,
+.type-confirm-alret .modal-inner .close-button{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+.type-confirm .bottom-btn-wrap > .close-button,
+.type-confirm-alret .bottom-btn-wrap > .close-button{
+	position: static;
+}
+
+
+/* 230914 cdbì¶”ê°€ */
+.fastrack-detail-wrap .reservation-btn-wrap {margin-bottom:12px; display: flex; flex-wrap: wrap; gap:10px 14px;}
+.fastrack-detail-wrap .reservation-btn-wrap .fastrack-btn {border-color:var(--primary); color:var(--primary);}
+.fastrack-detail-wrap .reservation-btn-wrap .fastrack-btn img {display: inline-block; vertical-align: middle;}
+.serAdd_wrap .add-reser-info {display:block;}
+/*.rb-tb.fastrack-detail-wrap .main-item-info .w_top_select {height: calc(100% - 375px);}*/
+.rb-tb.fastrack-detail-wrap .main-item-info .w_top_select.office {height: calc(100% - 375px);}
+.fast-wrap-on .rb-tb.fastrack-detail-wrap .main-item-info .w_top_select.office {height: calc(100% - 295px);}
+.fast-wrap-off .rb-tb.fastrack-detail-wrap .main-item-info .w_top_select.office {height: calc(100% - 305px);}
+.fastrack-popup-wrap {border-radius:20px;}
+.fastrack-popup-wrap.on #fix_bottom,
+.fastrack-popup-wrap.on .selectServiceWrap,
+.fastrack-popup-wrap.on,
+.fastrack-popup-wrap.on .fs_header,
+.fastrack-popup-wrap.on .fs_body{width:100%; max-width:700px;}
+.fastrack-popup-wrap.on .fs_header {box-shadow: none; border-bottom: 1px solid #ddd;}
+.fastrack-form-wrap .fs_header {border-radius:20px 20px 0 0; padding: 1.3rem;}
+.fastrack-form-wrap .sh_box {padding: 1.3rem; margin:.7rem 1.3rem;}
+.fastrack-form-wrap .fs_body > ul > li {border-radius:20px;     overflow: hidden;}
+.fastrack-form-wrap #fix_bottom {border-radius:0 0 20px 20px;}
+.payment-system {display:none;}
+.fastrack-form-wrap .payment-system {display:block; padding: 20px 20px 0; margin-bottom:20px; display: flex; justify-content: space-between; align-items: flex-end;}
+.fastrack-form-wrap .payment-system .tab-btn-area {display: flex;}
+.fastrack-form-wrap .payment-system .tab-btn-area .txt-checkbox span {background-color: #E3E3E3; border: 1px solid #E3E3E3; color: #707070; font-size: 13px; padding: 0.4rem 1.5rem; border-radius: 50em;}
+.fastrack-form-wrap .payment-system .tab-btn-area .txt-checkbox.active span {background-color: var(--primary); border: 1px solid var(--primary); color: #fff;}
+.fastrack-form-wrap .payment-system .notice_ {font-size: 12px; color: #B5B0B0;}
+.fastrack-form-wrap .payment-system .tab-btn-area .txt-checkbox {margin-right: 0.5rem; cursor: pointer;}
+.fastrack-form-wrap .payment-system .tab-btn-area .txt-checkbox span {background-color: #E3E3E3; border: 1px solid #E3E3E3; color: #707070; font-size: 13px; padding: 0.4rem 1.5rem; border-radius: 50em;}
+.fastrack-form-wrap .btn-basic {border-radius:50%;}
+.fastrack-form-wrap .fastrack-title-box {display: flex; justify-content: space-between; width: calc(100% - 7.4rem); align-items: center; gap:10px;}
+.fastrack-form-wrap .fastrack-title-box .v-bottom {font-size:0.9rem; white-space: nowrap;}
+.fastrack-form-wrap .fastrack-title-box .v-bottom .txt_num {font-size:2rem;}
+.fastrack-form-wrap .pk_box_wrap .ar_ib {top:50%; right:30px; transform:translateY(-50%); width:50px; height:50px;}
+.fastrack-form-wrap #fix_bottom .btn_wrap {background-color:#aaa;}
+.fastrack-form-wrap #fix_bottom .btn_wrap > button {color:#fff;}
+.fastrack-form-wrap .pk_box_wrap {padding: 19px 0px 26px 30px;}
+.fastrack-form-wrap .pk_box_wrap .tit {padding:0;}
+.fastrack-form-wrap .pk_box_wrap .tit strong {font-size:1.35rem; margin-bottom: 0.4em;}
+.fastrack-form-wrap .pk_box_wrap .txt_sub {font-size:0.9rem; opacity:1;}
+.fastrack-form-wrap .serAdd_wrap ul .rp_box .rp {display:flex; gap:19px; position:absolute; top:50%; transform:translateY(-50%);}
+.fastrack-form-wrap .serAdd_wrap ul .rp_box .rp > span {font-size: 1.3rem;}
+.fastrack-form-wrap .cs-checkbox > label:before {top:50%; transform:translateY(-50%);}
+.fastrack-form-wrap .serAdd_wrap .ac_body > ul {padding:15px 0;}
+.fastrack-form-wrap .serAdd_wrap .ac_body {background-color:#fff;}
+
+.fastrack-form-wrap .fs_body::-webkit-scrollbar {width: 5px;}
+.fastrack-form-wrap .fs_body::-webkit-scrollbar-thumb {height: 30%; background-color: #BBBBBB; border-radius: 10px;}
+.fastrack-form-wrap .fs_body::-webkit-scrollbar-track {background-color: transparent;}
+
+.fastrack-form-wrap .serAdd_wrap .ac_body > ul .reservation-no-txt {display: table;margin: 0 auto; padding:15px 0;    letter-spacing: -1px;}
+.fastrack-form-wrap .serAdd_wrap .ac_body > ul .reservation-no-txt .__wrap {display: flex;	justify-content: center;	align-items: center;}
+.fastrack-form-wrap .serAdd_wrap .ac_body > ul .reservation-no-txt .__wrap img {width: 30px; height: 30px;}
+.fastrack-form-wrap .serAdd_wrap .ac_body > ul .reservation-no-txt .__txt {display: block;margin-left: 9px;	font-size: 14px;font-weight: 500;color: #999999;}
+
+/* 231027 cdb ì˜ˆì•½ íŽ˜ì´ì§€ ë ˆì´ì•„ì›ƒ ìˆ˜ì • */
+.renew_reservation {background-color: #eee;}
+.renew_reservation #frmInput .renew_reservation_ul {display:flex; gap:20px;}
+.renew_reservation #frmInput .renew_reservation_ul > li {width:calc((100% - 40px) / 3); border-radius: 20px; overflow: hidden; box-shadow:2px 2px 15px rgba(0,0,0,.05); padding-right:0; padding-left:0;}
+.renew_reservation #frmInput .renew_reservation_ul .rsb-section {border:none; border-radius: 20px;}
+.renew_reservation .y_ws {padding-bottom: 5rem;}
+.renew_reservation .row:after {display: none;}
+.renew_reservation .rb-tit-box {padding: 1.6rem 1.333rem 0; display:flex; gap:19px;align-items: center;}
+.renew_reservation .rb-tit-box .add-ticket-btn {top: 1.133rem; right: 1.333rem; width: 150px; min-width:150px; border-color:#ccc; font-size: 0.866rem; color: #666;}
+.renew_reservation .rb-tit-box h3:after {display:none;}
+.renew_reservation .rb-tit-box h3 {font-size:.9333rem; color:#222; padding-bottom:0; font-weight: 500;}
+.renew_reservation .rb-tit-box span {font-size:1.2rem; color:#A73439; letter-spacing:-1.111px; }
+.renew_reservation .rb-tb .reservation-box {top: 51px;}
+.renew_reservation .reservation-box .w_top_select .selt_info_wrap:first-child {padding-top:0;}
+.renew_reservation .reservation-box .w_top_select .selt_info_wrap .selt {padding-top: 0;}
+.renew_reservation .service-list-wrap {padding-top:.666rem; position: relative; height: 100%;}
+.renew_reservation .service-list-wrap .no-data {display: table; width: 100%; height: 100%; text-align: center; color: #999; font-size: 0.933rem;}
+.renew_reservation .service-list-wrap .no-data p {display: table-cell; vertical-align: middle;}
+.renew_reservation .reservation-box .w_top_select .selt_info_wrap .info button {top:10px;}
+.renew_reservation .item_subprice > span {font-size: 1.066rem; line-height: 1.5;}
+.renew_reservation .reservation-box .w_top_select .selt_info_wrap .info del {margin-bottom:2px;}
+.renew_reservation .reservation-box .w_top_select .selt_info_wrap .info del > b {font-family: 'Campton', Sans-serif;}
+.renew_reservation .w_select_bottom.add-service-btn .n-click-evt {font-size:0.933rem; padding:0; height:40px;}
+.renew_reservation .w_select_bottom .total {width: calc(100% + 30px); margin-left: -15px; margin-bottom: -15px; background-color: #F5F5F5; border-top: 2px solid #A73439; }
+.renew_reservation .fastrack-detail-wrap .reservation-btn-wrap {margin-bottom:20px;}
+.renew_reservation .w_select_bottom .total .tit-wrap .box_tit {font-size:1.066rem;}
+.renew_reservation .w_select_bottom .total .total-price .txt_num {font-size: 1.6rem;}
+.renew_reservation .w_select_bottom .total .total-price > span {color:#A73439;}
+
+
+.renew_reservation .ui-datepicker .ui-datepicker-header {height:31px; text-align: center; margin-bottom: 32px;}
+.renew_reservation .ui-datepicker .ui-datepicker-title {line-height:31px; font-size: 1.533rem; display: inline-block; padding:0; font-family: 'Campton', Sans-serif;}
+.renew_reservation .swiper-datapicker .swiper-button-next,
+.renew_reservation .swiper-datapicker .swiper-button-prev {border:0; top:0; width:1.6rem; height:1.6rem;}
+.renew_reservation .ui-datepicker-title .ui-datepicker-year:after {content:".";}
+.renew_reservation .swiper_btn_wrap {position:absolute; height: 1.5rem; top: 1.3rem; width: 100%; z-index:1;}
+.renew_reservation .swiper_btn_wrap .inbox {width: 173px; position:absolute; left: 50%; transform: translateX(-50%); height:100%;}
+.renew_reservation .swiper_btn_wrap .swiper-button-next {background-image:url('/imges/renew_right_arrow.svg');}
+.renew_reservation .swiper_btn_wrap .swiper-button-prev {background-image:url('/imges/renew_left_arrow.svg');}
+.renew_reservation .ui-datepicker table {max-width:290px; margin:0 auto;}
+.renew_reservation .ui-datepicker-calendar th span {opacity: 1;}
+.renew_reservation .ui-datepicker-calendar .ui-datepicker-week-end {color:#444;}
+.renew_reservation .ui-datepicker-calendar .ui-datepicker-week-end:first-child {color: #DF3737;}
+.renew_reservation .ui-datepicker-calendar .ui-datepicker-week-end:last-child {color:#444;}
+.renew_reservation .ui-datepicker-calendar td a,
+.renew_reservation .ui-datepicker-calendar td span {font-family: 'Campton', Sans-serif;}
+.renew_reservation .ui-state-active,
+.renew_reservation .ui-state-hover {width:32px; height:32px; line-height: 32px;}
+.renew_reservation #reservationTimeListDiv .rsb-section {background-color: #fff;}
+.renew_reservation .unable-time.fix-height {height:calc(830px - 490px);}
+.renew_reservation .ver-d-table .table-cell {color: #999; font-size: 0.933rem;}
+.renew_reservation .ver-d-table .table-cell > img {display: block; margin: 0 auto 26.5px;}
+.renew_reservation .reservation-box .time-box-scoll {height: calc(290px - 3.33rem);	margin-top: 3.33rem;}
+.renew_reservation .load-cover {height: calc(calc(100% + 50px + 3.33rem)); padding-top: 40%;    margin-top: -2.66rem;}
+.renew_reservation .rs-time-box {padding-top:0;}
+.renew_reservation .reservation-box .time-box {max-width: 290px; margin: 0 auto; padding: 0; display: flex; flex-wrap: wrap; gap:10px;}
+.renew_reservation .reservation-box .time-box .swiper-slide {padding: 0; width: calc((100% - 30px) / 4);}
+.renew_reservation .reservation-box .time-box .swiper-slide.done > span {background: #ececec; border-color: #ececec; color: #a7a7a7;}
+.renew_reservation .swiper-slide .btn_round {font-size:0.933rem; color:#666; height: 2.133rem; line-height: 2.133rem; border-color:#ccc; font-family: 'Campton', Sans-serif;}
+.renew_reservation .swiper-slide .btn_round.active {color:#fff; border-color: #a73439;}
+
+.renew_reservation .c_scroll::-webkit-scrollbar {width: 4px;}
+/* Track */
+.renew_reservation .c_scroll::-webkit-scrollbar-track {background: #eee;}
+/* Handle */
+
+.renew_reservation .c_scroll::-webkit-scrollbar-thumb {background: #bbb; border-radius: 50em;}
+.renew_reservation .form-box > .form-label {float: none; padding-top: 0; width: 100%; display: block; margin-bottom: 4px; color: #444; font-weight: 500; font-size: 1.066rem; margin-top:0;}
+.renew_reservation .form-box > .right_sec {float: none; width:100%; flex-wrap: wrap; gap:8px 4px;}
+.renew_reservation .form-box > .right_sec > div:not(.selbox) {width:100%;}
+.renew_reservation .form-box > .right_sec > div:not(.selbox) > button {width:100%; border-radius: 0.333rem; font-size: 0.933rem !important;}
+.renew_reservation .form-box > .right_sec > .w3 {width:calc((100% - 8px) / 3);}
+.renew_reservation .form-box > .right_sec .sub-txt {margin:0; padding: 3px 0; background-color: #a73439; color:#fff; font-size: 12px; text-align: center; border-radius: 0.333rem;}
+.renew_reservation .reservation-box .form-box {margin-bottom: 0.666rem;}
+.renew_reservation .right_sec .f-col.selbox,
+.renew_reservation .fm_ctrl {height: 34px; border-radius: 0.333rem; margin-right:0;}
+.renew_reservation #memoSelect {color:#888; font-size: 0.933rem; padding: 0 0.666rem;}
+.renew_reservation #reservationMemo {height:50px; padding: 0.533rem 0.666rem;}
+.renew_reservation #reservationMemo::placeholder {color:#888;}
+.request_memo,.request_memo2 { display: none;}
+.request_memo2 #reservationMemo2 {height:275px; padding: 0.533rem 0.666rem; border-radius: 0.333rem; }
+.request_memo2 #reservationMemo2::placeholder {color:#888;}
+.renew_reservation .certification-box .right_sec {position: relative;}
+.renew_reservation .certification-box .right_sec > div > #certBtn {position: absolute; width:77px; height:34px; padding:0; right:0; top:0; border-radius: 0 5px 5px 0;}
+.renew_reservation .reservation-box .rbs-inner {padding: 2rem 2rem 0;}
+.renew_reservation .form-box > .form-phone.on {flex-wrap: nowrap;}
+.renew_reservation .form-box > .form-phone.on > * {width:calc((100% - 12px) / 4) !important;}
+.renew_reservation .certification-box {display:none; margin-bottom:0 !important;}
+.renew_reservation .step03 .reservation-box {background-color: #F5F5F5;}
+.renew_reservation .step03 .reservation-box .rb-top {border-bottom:0;}
+.renew_reservation .step03 .reservation-box .rbs-inner {padding-top: 1.133rem;}
+.renew_reservation .step03 .reservation-box .rbs-inner .__chkAll {margin-bottom:16.5px; padding-bottom:16.5px; border-bottom:1px solid #ddd;}
+.renew_reservation .step03 .cs-checkbox > label {font-size:0.933rem; line-height:1.428;}
+.renew_reservation .step03 .cs-checkbox > label > span {word-break: keep-all;}
+.renew_reservation .step03 .accept_wrap .accept {    padding-right: 4em;}
+.renew_reservation .step03 .accept_wrap > a {font-size:0.8rem;}
+.renew_reservation .step03 .__txt-small {font-size:.8rem;}
+.renew_reservation .step03 .__notification {margin:1.333rem 0 2rem;}
+.renew_reservation .step03 .rb-bottom .rb-tit-box {padding:2rem; padding-bottom:0;}
+.renew_reservation .step03 .rb-bottom .rb-tit-box > h3 {color:#999; font-size:0.933rem;}
+.renew_reservation .step03 .reservation-box .rb-bottom .rbs-inner {margin-top: 1.133rem; padding-top:0; height: 213px;}
+.renew_reservation .btn_round .soldout {top: 0; right: 0; left: initial; max-width: 47px; font-size: 0.666rem;}
+.renew_reservation .step02 .reservation-box .time-box-scoll {margin-top: 2.666rem; padding-top: 0.666rem;}
+.renew_reservation .rb-tit-box .add-ticket-btn.counsel {top:50px; z-index:1;}
+.renew_reservation .rb-tb .reservation-box {padding-top:2.5rem;}
+
+/* 231102 cdb */
+.renew_change .reservation-box .time-box-scoll {height:230px;}
+
+.renew_reservation .service-list-wrap .no-data .btn-direct {margin-top: 15px;}
