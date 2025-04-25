@@ -191,10 +191,6 @@
 	#header.main  { 
 		border-bottom: 0;
 	}
-	#header.main h1.logo { 
-		/* visibility: hidden; */
-	}
-
 /*click down menu*/
 	.down-menu-wrap { 
 		display: inline-block;
