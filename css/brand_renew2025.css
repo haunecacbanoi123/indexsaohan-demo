@@ -104,6 +104,7 @@ body.main > .maxframe {
     font-size: 52px;
     line-height: 61px;
     padding-bottom: 39px;
+    color: rgb(255, 255, 255);
 }
 .brand-container .info__txt-box{
     padding: 33px 36px 33px;
@@ -149,10 +150,42 @@ body.main > .maxframe {
     filter: brightness(0) invert(0);
     margin: 0 auto;
 }
+/* feedback */
+.feedback-container {
+    position: relative;
+    padding: 100px 20px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .feedback-container h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  /* Avatar images */
+  .avatar {
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  
+  .avatar1 { bottom: 60px; left: 100px; }
+  .avatar2 { bottom: 120px; right: 100px; }
+  .avatar3 { bottom: 40px; right: 200px; }
+  .avatar4 { bottom: 100px; left: 200px; }
+  .avatar5 { bottom: 10px; left: 50%; transform: translateX(-50%); }
+  .avatar6 { top: 100px; left: 50px; }
+  .avatar7 { top: 80px; right: 50px; }
 /* ìŠ¤ì™€ì´í¼ */
 .swiper-button-wrap{
     display: flex;
     margin-top: 40px;
+
 }
 .swiper-button-wrap .prev {
 	background: url('/imges/brand/icon/2025/i_arrow_border_right.svg') no-repeat center / contain;
@@ -181,7 +214,7 @@ body.main > .maxframe {
     transition: all .2s;
 }
 .swiper-button-wrap #signature-swiper-pagination span{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(233, 215, 215, 0.3);
 }
 .swiper-button-wrap .pagination span.swiper-pagination-bullet-active{
     width: 50px;
@@ -223,6 +256,7 @@ body.main > .maxframe {
 #branch-section h3{
     padding-bottom: 25px;
     margin-top: 60px;
+    color: black;
 }
 #branch-section .branch_top_wrap #tab { 
     position: relative;
@@ -346,9 +380,10 @@ body.main > .maxframe {
     background-color: #faefe0;
 }
 #event-section h3{
-    margin-left: 500px;
+    margin-left: 250px;
     padding-bottom: 0;
     text-align: center;
+    color: black;
 }
 #event-section .title-area {
     display: flex;
@@ -429,7 +464,7 @@ body.main > .maxframe {
 
 /* signature section */
 #signature-sec{
-    background-color: #F2F2F2;
+    background-color: #282a29;
     padding: 0px;
     font-family: 'Pretendard';
 }
@@ -473,6 +508,12 @@ body.main > .maxframe {
     width: 100%;
     object-fit: cover;
 }
+.technology-divider {
+    height: 2px;
+    background-color: #e0dcd6;
+    width: 90%; 
+    margin-bottom: 40px;
+  }
 /* signature section */
 
 /* before&after section */
