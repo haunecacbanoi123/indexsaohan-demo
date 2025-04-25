@@ -1,4 +1,4 @@
-$(function() {
+(function() {
 
 	$(window).on('scroll', function() {
 		goTopApp.goTopFunc();
