@@ -549,7 +549,7 @@ body.main > .maxframe {
 	margin-bottom: 92px;
 }
 #value-sec .txt-box p {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.818;
 	font-family: 'Noto Sans KR', Sans-serifCampton;
@@ -610,7 +610,7 @@ body.main > .maxframe {
 	white-space: nowrap;
 }
 .cheong-ju .value-list > li > strong span#count03:after {
-	content: "K+";
+	content: "K";
 	font-size: 61px;
 	letter-spacing: -2.45px;
 }
@@ -622,7 +622,7 @@ body.main > .maxframe {
 	line-height: 1;
 }
 .value-list > li > strong span#count03:after {
-    content: "K+";
+    content: "K";
     font-size: 61px;
     letter-spacing: -2.45px;
 }

@@ -90,32 +90,32 @@
         if ( "/" == "/m/" ) {																//	Mobile 주소로 접속 했다면
             if ( device == "PC" ) {
                 if (fragment.includes('region_')) {
-                    location.href			=	"https://www.toxnfill.com/"+fragment;
+                    location.href			=	"#/"+fragment;
                 }else{
-                    location.href			=	"https://www.toxnfill.com/";
+                    location.href			=	"#";
                 }
             } else if ( device == "Tablet" ) {
                 if ( parseInt(screenWidth) > 767 ) {														//	PC 이동
                     if (fragment.includes('region_')) {
-                        location.href			=	"https://www.toxnfill.com/"+fragment;
+                        location.href			=	"#"+fragment;
                     }else{
-                        location.href			=	"https://www.toxnfill.com/";
+                        location.href			=	"#";
                     }
                 }
             }
         } else {																							//	PC 주소로 접속 했다면
             if ( device == "Mobile" ) {
                 if (fragment.includes('region_')) {
-                    location.href			=	"https://www.toxnfill.com/m/"+fragment;
+                    location.href			=	"#"+fragment;
                 }else{
-                    location.href			=	"https://www.toxnfill.com/m/"
+                    location.href			=	"#/"
                 }
             } else if ( device == "Tablet" ) {
                 if ( parseInt(screenWidth) < 768 ) {														//	Mobile 이동
                     if (fragment.includes('region_')) {
-                        location.href			=	"https://www.toxnfill.com/m/"+fragment;
+                        location.href			=	"#"+fragment;
                     }else{
-                        location.href			=	"https://www.toxnfill.com/m/"
+                        location.href			=	"#"
                     }
                 }
             }
@@ -403,7 +403,7 @@
                                 <span>[필수] </span>
                                 <div>
                                     서비스 이용 및 예약 신청을 위한 개인정보 제공에 동의
-                                    <a href="https://www.toxnfill.com/brandAcceptSite.php" target="_blank">이용약관</a>
+                                    <a href="#" target="_blank">이용약관</a>
                                 </div>
                             </label>
                         </div>
@@ -413,7 +413,7 @@
                                 <span>[선택] </span>
                                 <div>
                                     마케팅 활용에 대한 동의
-                                    <a href="https://www.toxnfill.com/brandAcceptPrivacy.php" target="_blank">이용약관</a>
+                                    <a href="#" target="_blank">이용약관</a>
                                 </div>
                             </label>
                         </div>
@@ -927,19 +927,19 @@
                         <div class="signature-swiper">
                             <div class="swiper signatureSwiper swiper-container-horizontal">
                                 <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="margin-right: 4px;">
-                                        <a class="signature-info" href="https://www.toxnfill.com/brand/detail.php?c=1242&amp;i=5197">
+                                        <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
                                                 <img src="images/tech1.jpg" alt="">
                                             </div>
                                         </a>
                                     </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" style="margin-right: 4px;">
-                                        <a class="signature-info" href="https://www.toxnfill.com/brand/detail.php?c=1242&amp;i=5196">
+                                        <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
                                                 <img src="images/tech2.jpg" alt="">
                                             </div>
                                         </a>
                                     </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 4px;">
-                                        <a class="signature-info" href="https://www.toxnfill.com/brand/detail.php?c=1245&amp;i=9038">
+                                        <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
                                                 <img src="images/tech3.jpg" alt="">
                                             </div>
@@ -1001,15 +1001,6 @@
                 <h2>PHẢN HỒI KHÁCH HÀNG</h2>
                 <p class="quote">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.”</p>
                 <p class="name">Anna Long</p>
-                <p class="role">Customer</p>
-              
-                <div class="pagination">
-                  <span class="number">01</span>
-                  <span class="line"></span>
-                  <span class="dot active"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
               
                 <!-- Avatar Images -->
                 <img src="images/fbavt1.jpg" class="avatar avatar1" />
