@@ -460,6 +460,30 @@ body.main > .maxframe {
     width: 100%; /* Ảnh chiếm toàn bộ chiều rộng card */
     height: auto; /* Ảnh giữ tỷ lệ khung hình */
 }
+.reviews {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.reviews h2 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reviews ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.reviews li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.reviews strong {
+    font-weight: bold;
+}
 /* event section */
 
 /* signature section */
@@ -513,6 +537,114 @@ body.main > .maxframe {
     background-color: #e0dcd6;
     width: 90%; 
     margin-bottom: 40px;
+  }
+  .title-box {
+    text-align: left;        
+    align-items: flex-start; 
+    margin-left: auto;
+  }
+    
+  .brand {
+    font-size: 15px;
+    color: #ccc;
+    margin-right: 1360px ;
+  }
+
+    .channel-container {
+    background: url(../images/cnbgr.png);
+    color: white;
+    padding: 100px 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 1163px;
+    letter-spacing: 2px;
+  }
+  
+  .underline {
+    width: 400px;
+    height: 2px;
+    background-color: white;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .phones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 600px;
+  }
+  
+  .phone {
+    width: 180px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    background-image: url(../images/cnp1.png);
+  }
+  
+  .phone span {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.7);
+  }
+  
+  .footer-container {
+    padding: 40px;
+    color: #222;
+    background-color: #f6ebdc;
+  }
+  
+  .footer-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .footer-left h2 {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+  }
+  
+  .line-left {
+    width: 330px;
+    height: 2px;
+    background-color: #222;
+  }
+  
+  .line-right {
+    margin-top: 35px;
+    flex-grow: 1;
+    height: 2px;
+    background-color: #222;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: underline;
   }
 /* signature section */
 
