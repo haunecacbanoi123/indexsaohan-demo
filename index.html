@@ -1197,7 +1197,7 @@
         
             // 카운트업 세팅
             function setCountUp() {
-                document.querySelectorAll('#value-sec [data-count-up]').forEach(item => {
+                document.querySelectorAll('# [data-count-up]').forEach(item => {
                     const count = Number(item.getAttribute('data-count-up'))
                     const id = item.getAttribute('id');
                     const c = new countUp.CountUp(id, count, {
