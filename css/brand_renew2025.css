@@ -34,10 +34,13 @@ body.main > .maxframe {
 .brand-renew .title-box h3{
 	font-size: 80px;
 	line-height: 1;
-	color:#222222;
+	color: #F9F9FD;
 	font-weight: 600;
 	font-family: 'Campton', Sans-serif;
 	margin-bottom: 23px;
+    background: linear-gradient(90deg, #F8E9A1, #E6B958, #C3912F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .brand-renew .title-box .sub-tit{
 	font-size: 32px;
@@ -669,7 +672,7 @@ body.main > .maxframe {
 
 /* brand value section */
 #value-sec {
-	background-color: #EFECE3;
+	background-color: #faefe0;
 	padding: 122px 0 50px;
 	font-family: 'Campton', 'Noto Sans KR', Sans-serif;
 }
@@ -684,8 +687,8 @@ body.main > .maxframe {
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.818;
-	font-family: 'Noto Sans KR', Sans-serifCampton;
-	letter-spacing: -2.5px;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 0.5px;
 	margin: 0;
 }
 #value-sec .notice-txt {

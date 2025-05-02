@@ -1,0 +1,1436 @@
+<html lang="en" class="translated-ltr"><head>
+
+    <!--브랜드용 brand-top.php-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="index,follow">
+    <meta name="author" content="TRIUP">
+    <meta name="copyright" content="TRIUP">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    
+    
+    <title>Tox and Feel Brand</title>
+    <link rel="canonical" href="https://www.toxnfill.com/brandToxVideo.php">
+    <meta name="keywords" content="톡스앤필, 피부과, 보톡스, 필러, 윤곽주사, 리프팅, 턱끝필러, 다이어트, 제모, 제로핏, 쁘띠, 피부관리, 체형관리, 레이저, 여드름, 쁘띠스타일리스트, 전문가, 시술, 가장 유명한 피부과, 피부과추천, 브랜드">
+    <meta name="description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
+    <meta property="og:image" content="/imges/toxnfill_thumb.png">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="website"> 
+    <meta property="og:site_name" content="톡스앤필 브랜드">
+    <meta property="og:title" content="톡스앤필 브랜드">
+    <meta property="og:description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
+    <meta property="og:url" content="https://www.toxnfill.com/brandToxVideo.php">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@toxnfill">
+    <meta name="twitter:title" content="톡스앤필 브랜드">
+    <meta name="twitter:description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
+    <meta name="twitter:image" content="/imges/toxnfill_thumb.png">
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/vendor/swiper.min.css">
+    <link rel="stylesheet" href="/css/overrides.css">
+    <link rel="stylesheet" href="/css/brand.common.css?v=2412161708">
+    <link rel="stylesheet" href="/css/brand.layout.css?v=2410301257">
+    <link rel="stylesheet" href="/css/brand.css?v=2503280204">
+    
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PTXBML29"></script><script async="" src="//fs.bizspring.net/fs4/bstrk.1.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="/common/js/jquery-1.12.4.min.js"></script>
+    <script src="/common/js/swiper.min.js"></script>
+    <script src="/common/js/default.js"></script>
+    <!-- 브랜드페이지 js추가 -->
+    <!--<script src="/common/js/brand.js"></script>-->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-G08LC2DML3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-G08LC2DML3');
+    </script>
+    
+    
+    <script>
+    //디바이스 종류(Mobile, PC, Tablet)
+    function deviceKind()
+    {
+        //	모바일 Device종류(윈도우 폰은 앞으로 나오지 않기 때문에 빼도 무방하나 아직 쓰는 사람이 존재하기에..)
+        var mobileFlag				=	/Mobile|iP(hone|od)|Windows (CE|Phone)|Minimo|Opera M(obi|ini)|BlackBerry|Nokia/;
+    
+        if (navigator.userAgent.match(mobileFlag) && !navigator.userAgent.match(/iPad/)) {				//	모바일일경우
+            return "Mobile";
+        } else if (navigator.userAgent.match(/iPad|Android/)) {											//	모바일 Device와 Android가 포함이 안되어 있을 경우
+            return "Tablet";
+        } else {																						//	그 외의 경우 모두 테블릿
+            return "PC";
+        }
+    }
+    
+    var screenWidth					=	screen.width;													//	가로 해상도
+    var screenHeight				=	screen.height;													//	세로 해상도
+    var device						=	deviceKind();
+    
+    var fragment = window.location.hash;
+    
+    if ( "/br" == "/m/" ) {																//	Mobile 주소로 접속 했다면
+        if ( device == "PC" ) {
+            if (fragment.includes('region_')) {
+                location.href			=	"https://www.toxnfill.com/brandToxVideo.php"+fragment;
+            }else{
+                location.href			=	"https://www.toxnfill.com/brandToxVideo.php";
+            }
+        } else if ( device == "Tablet" ) {
+            if ( parseInt(screenWidth) > 767 ) {														//	PC 이동
+                if (fragment.includes('region_')) {
+                    location.href			=	"https://www.toxnfill.com/brandToxVideo.php"+fragment;
+                }else{
+                    location.href			=	"https://www.toxnfill.com/brandToxVideo.php";
+                }
+            }
+        }
+    } else {																							//	PC 주소로 접속 했다면
+        if ( device == "Mobile" ) {
+            if (fragment.includes('region_')) {
+                location.href			=	"https://www.toxnfill.com/m/brandToxVideo.php"+fragment;
+            }else{
+                location.href			=	"https://www.toxnfill.com/m/brandToxVideo.php"
+            }
+        } else if ( device == "Tablet" ) {
+            if ( parseInt(screenWidth) < 768 ) {														//	Mobile 이동
+                if (fragment.includes('region_')) {
+                    location.href			=	"https://www.toxnfill.com/m/brandToxVideo.php"+fragment;
+                }else{
+                    location.href			=	"https://www.toxnfill.com/m/brandToxVideo.php"
+                }
+            }
+        }
+    }
+    </script>
+    
+    
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+            if(window.wcs) {
+            if (!wcs_add) var wcs_add = {};
+            wcs_add["wa"] = "s_15f42bac7f3f";
+            wcs.inflow("www.toxnfill.com");
+            wcs_do();
+        }
+                !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }
+        (window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+    
+        fbq('init', '129198215752836'); // Meta Pixel ID 입력
+        fbq('track', 'PageView'); // 페이지 방문 추적
+        </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=129198215752836&ev=PageView&noscript=1"/></noscript>
+    <script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/kas/static/kp.js"></script>
+    <script type="text/javascript">
+        kakaoPixel('1263615753071475102').pageView();
+    </script>
+    
+    <script src="//fin.rainbownine.net/js/across_adn_2.0.1.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        var _TRK_LID = "113991";
+        var _L_TD = "ssl.logger.co.kr";
+        var _TRK_CDMN = ".toxnfill.com";
+    </script>
+    <script type="text/javascript">
+        var _CDN_DOMAIN = location.protocol == "https:" ? "https://fs.bizspring.net" : "http://fs.bizspring.net";
+        (function (b, s) {
+            var f = b.getElementsByTagName(s)[0], j = b.createElement(s);
+            j.async = true;
+            j.src = "//fs.bizspring.net/fs4/bstrk.1.js";
+            f.parentNode.insertBefore(j, f);
+        })(document, "script");
+    </script>
+    <noscript><img alt="Logger Script" width="1" height="1" src="http://ssl.logger.co.kr/tracker.1.tsp?u=113991&amp;js=N"/></noscript>
+    
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PTXBML29');</script>
+    
+    <script type="text/javascript">
+        function counselScript() {
+                    if (window.wcs) {
+                if (!wcs_add) var wcs_add = {};
+                wcs_add["wa"] = "s_15f42bac7f3f";
+                var _conv = {};
+                _conv.type = 'lead';
+                wcs.trans(_conv);
+                        }
+                        fbq('track', 'Purchase', {
+                    currency: 'KRW',
+                    value: 0.00
+                });
+                        kakaoPixel('1263615753071475102').pageView();
+                kakaoPixel('1263615753071475102').purchase();
+                    var across_adn_complete_contain = new fn_across_adn_contain();
+            var across_adn_complete_param = [];
+            across_adn_complete_param = {"ut":"Complete","ui":"102135","uo":"types1"};
+            across_adn_complete_contain.init(across_adn_complete_param);
+            
+                        _trk_clickTrace('_TRK_PI=RGR');
+                    window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: '상담접수'
+            });
+        }
+    
+        function brandCounselButtonClick(eventName){
+                            fbq('trackCustom', 'ConsultingBranch', {
+                button_name: '브랜드_지점예약하기'
+            });
+                    kakaoPixel('1263615753071475102').pageView();
+            kakaoPixel('1263615753071475102').signUp();
+                    fn_across_adn_btn_ok('102135','types2');
+            
+                    _trk_flashEnvView('_TRK_G3=1');
+            try {
+                _trk_clickTrace('EVT', eventName);
+            } catch (_e) {
+            }
+                }
+    
+        function branchClick(eventName){
+                    
+            
+            
+            
+                    try {
+                _trk_clickTrace('EVT', eventName);
+            } catch (_e) {
+            }
+    
+                }
+    
+        function counselBtnClick(){
+                    fbq('trackCustom', 'ConsultingTalk', {
+                button_name: '상담 신청'
+            });
+                            kakaoPixel('1263615753071475102').pageView();
+            kakaoPixel('1263615753071475102').participation('Consulting');
+                                    fn_across_adn_btn_ok('102135','types4');
+            
+            _trk_flashEnvView('_TRK_PI=RGR');
+        }
+    
+    
+    
+    </script>
+    
+    <link rel="stylesheet" href="/css/pagination.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.NJgGN_yGIWM.L.W.O/am=AAY/d=0/rs=AN8SPfrTSMIvWAFISYN4u74dPJrX0HgUsw/m=el_main_css"></head>
+    
+    <body>
+    <div class="h-100" id="brand2">
+        <!-- brand top menu -->
+        <div id="HWrapper" class="header_cover renewal">
+        <header id="header" class="dim">
+            <div class="fix_area">
+                <h1 class="logo">
+                    <a href="../index.html" class="">
+                        <img src="../images/logobv.png" alt="Tox and Fill">
+                    </a>
+                </h1>
+                <nav id="nav">
+                    <div class="nav_inner">
+                        <ul class="nav_top">
+                            <!-- <li>
+                                <a href="https://www.toxnfillacademy.com" target="_blank" class="item">
+                                    <span class="">톡스앤필 아카데미</span>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="http://www.bbglab.co.kr/" target="_blank" class="item">
+                                    <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox &amp; Feel Cosmetics</font></font></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bbgnetworks.com/index.php#contact-us" target="_blank" class="item">
+                                    <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Franchise Inquiry</font></font></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item">
+                                    <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number 1661-4842</font></font></span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="down-menu-wrap">
+                                    <a class="down-menu clear btn" href="javascript:openDropdown('langDropdown');">
+                                        <div class="icon-front-text global">
+                                            <div class="icon_sec flag_icon"></div>
+                                            <span class="carvon ml-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Language</font></font></span>
+                                        </div>
+                                    </a>
+                                    <ul class="secon_menu" id="langDropdown">
+                                        <li>
+                                            <a href="index.php" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Korean</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eng.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">English</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jp.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Japanese</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://cn.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chinese</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://vn.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vietnamese</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://th.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thai</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://id.toxnfill.com/" target="_blank">
+                                                <div class="icon-front-text">
+                                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Indonesian</font></font></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="gnb_sec">
+                            <ul class="gnb_menu">
+                                <li id="branchActive" class="active">
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox &amp; Phil Beauty Group</font></font></a>
+                                    <ul>
+                                        <li><a href="/brandToxnfill.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introduction to Tox&amp;Phil</font></font></a></li>
+                                        <li><a href="/brandAction.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Academic activities</font></font></a></li>
+                                        <li><a href="/brandNews.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Articles/Press Releases</font></font></a></li>
+                                        <li><a href="/brandStudy.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Studying Talk and Phil</font></font></a></li>
+                                        <li><a href="/brandStar.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Star and Tox and Phil</font></font></a></li>
+                                        <li><a href="/brandModel.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox &amp; Phil Ambassador</font></font></a></li>
+                                        <li><a href="/brandMap.php?b=T00002"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch information/directions</font></font></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procedure Guide</font></font></a>
+                                    <ul>
+                                                                                    <li><a href="/brand/detail.php?c=1238&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Botox</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1241&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Filler/Sculptra</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1240&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contour/Sculpture/Zero-Fit Injection</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=2557&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Silifting</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1242&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laser lifting</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1244&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acne/Pores</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1243&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pigment</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1245&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Skin Booster</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1246&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Skincare</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1248&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">waxing</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1247&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">form</font></font></a></li>
+                                                                                            <li><a href="/brand/detail.php?c=1249&amp;i="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anti-aging liquid</font></font></a></li>
+                                                                                </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Community</font></font></a>
+                                    <ul>
+                                        <li><a href="/brandNotice.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">announcement</font></font></a></li>
+                                        <li><a href="/brandToxVideo.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox and Feel Video</font></font></a></li>
+                                                                            <li><a href="/brandWebDrama.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Talk and Feel Web Drama</font></font></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">event</font></font></a>
+                                    <ul>
+                                        <li><a href="/brandEvent.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">All Events</font></font></a></li>
+                                        <li><a href="/brandEvent1.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch Events</font></font></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Make a reservation</font></font></a>
+                                    <ul>
+                                        <li><a href="/brandReservation.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">seoul</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Incheon/Gyeonggi</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daejeon/Chungcheong</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Busan Daegu Ulsan Gyeongsang</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gwangju/Jeolla</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangwon</font></font></a></li>
+                                        <li><a href="/brandReservation.php#region_7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chief mourner</font></font></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" onclick="depthLocation(this);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Before and after photos</font></font></a>
+                                    <ul>
+                                        <li><a href="/brandBnA.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Before and after photos</font></font></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script src="/common/js/common.js"></script>
+        <script>
+            function depthLocation(btn){
+                var submenu = btn.nextElementSibling;
+                if (submenu) {
+                    var firstLiElement = submenu.querySelector('li a');
+                    if (firstLiElement) {
+                        var linkHref = firstLiElement.getAttribute('href');
+                        window.location.href = linkHref;
+                    }
+                }
+            }
+    
+            function openDropdown(target) {
+                $('#' + target).toggleClass('on');
+            }
+    
+            var nowName = location.pathname;
+            if( nowName == '/' || nowName == '/brand.php' || nowName ==='/brandT.php'  || nowName == '/brand_renew.php') {
+                $('#header').addClass('main');
+                //$('#header').addClass('white_ver main'); 흰색 네비
+                $('#header').parent().removeClass('header_cover');
+                $('.global img').attr('src', '/imges/flag/globe.svg');
+                //$('.global img').attr('src', '/imges/brand/global_open_w.png'); 흰색 네비
+            }
+        </script>
+    </div>
+        <!-- // brand top menu -->
+    
+        <!-- 서브이미지 -->
+        
+        <script>
+            function typingWrite(txt){
+                var slogunTxt = txt;
+                var word = "";
+                var slide = $('.subBannerSwiper').length;
+                for (var i = 0; i < slogunTxt.length; i++) {
+                    word += "<span style='animation:charAnim " + 0.9 + "s linear " + i/10 + "s forwards;'>"
+                        + slogunTxt[i] + "</span>";
+                    if(slide) {
+                        $('.subSlogan').html(word);
+                    } else {
+                        $('#subSlogan').html(word);
+                    }
+                }
+            }
+        </script>
+    
+    
+        <div class="b_sub_cover commuBanner">
+            <div class="relative h-100">
+                <div class="banner_typing commu" id="subSlogan"><span style="animation:charAnim 0.9s linear 0s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Complete</font></font></span><span style="animation:charAnim 0.9s linear 0.1s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wall</font></font></span><span style="animation:charAnim 0.9s linear 0.2s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">one</font></font></span><span style="animation:charAnim 0.9s linear 0.3s forwards;"> </span><span style="animation:charAnim 0.9s linear 0.4s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sugar</font></font></span><span style="animation:charAnim 0.9s linear 0.5s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">god</font></font></span><span style="animation:charAnim 0.9s linear 0.6s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">second</font></font></span><span style="animation:charAnim 0.9s linear 0.7s forwards;"> </span><span style="animation:charAnim 0.9s linear 0.8s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">only</font></font></span><span style="animation:charAnim 0.9s linear 0.9s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de</font></font></span><span style="animation:charAnim 0.9s linear 1s forwards;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Is</font></font></span></div>
+                <img src="/imges/logo_notice.svg" alt="toxnfill" class="banner_logo" style="opacity: 1;">
+            </div>
+        </div>
+        <script>
+            typingWrite("완벽한 당신을 만드는");
+            setTimeout(function() {
+                $('.banner_logo').fadeIn(200);
+                $('.banner_logo').animate({opacity: '1'}, 500 );
+            }, 1500);
+        </script>
+    
+        <!-- // -->
+    
+        <div class="fix_area">
+            <div class="b_con_wrap">
+                <div class="menu_side_section">
+                    <div class="b_side_menu">
+                        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Community</font></font></h2>
+                        <ul class="s_menu_list">
+                            <li><a href="brandNotice.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">announcement</font></font></a></li>
+                            <li class="active"><a href="brandToxVideo.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox and Feel Video</font></font></a></li>
+                                                    <li><a href="brandWebDrama.php"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Talk and Feel Web Drama</font></font></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_content_section">
+                    <div class="option-top-area">
+                        <div class="selbox ">
+                            <select name="sel-branch" id="sel-branch" title="Branch selection" class="selbox_select" onchange="location.href='./brandToxVideo.php?b=' + this.value + '&amp;c='" fdprocessedid="hgtn52">
+                                <option value="" class="dark" selected=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">All branches</font></font></option>
+                                                            <optgroup label="서울" class="dark">
+                                                                    <option value="T00002"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></option>
+                                                                    <option value="T00012"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangdongcheonho Branch</font></font></option>
+                                                                    <option value="T00016"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangseo branch</font></font></option>
+                                                                    <option value="T00048"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Konkuk University branch</font></font></option>
+                                                                    <option value="T00013"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gwanak Seoul National University Entrance Branch</font></font></option>
+                                                                    <option value="T00011"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nowon branch</font></font></option>
+                                                                    <option value="T00010"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Myeongdong branch</font></font></option>
+                                                                    <option value="T00057"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mokdong branch</font></font></option>
+                                                                    <option value="T00046"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mia Sagari Branch</font></font></option>
+                                                                    <option value="T00015"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Songpa branch</font></font></option>
+                                                                    <option value="T00094"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shinnonhyeon branch</font></font></option>
+                                                                    <option value="T00004"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apgujeong branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="인천·경기" class="dark">
+                                                                    <option value="T00025"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copper point</font></font></option>
+                                                                    <option value="T00017"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gimpo branch</font></font></option>
+                                                                    <option value="T00090"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bucheon branch</font></font></option>
+                                                                    <option value="T00049"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bundang branch</font></font></option>
+                                                                    <option value="T00020"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Suwon Injejeom</font></font></option>
+                                                                    <option value="T00022"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ansan branch</font></font></option>
+                                                                    <option value="T00026"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anyang branch</font></font></option>
+                                                                    <option value="T00047"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Icheon branch</font></font></option>
+                                                                    <option value="T00021"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Incheon Bupyeong Branch</font></font></option>
+                                                                    <option value="T00093"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Incheon Songdo Branch</font></font></option>
+                                                                    <option value="T00059"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ilsan Juyeop Branch</font></font></option>
+                                                                    <option value="T00073"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paju branch</font></font></option>
+                                                                    <option value="T00036"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pyeongtaek branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="대전·충청" class="dark">
+                                                                    <option value="T00074"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sejong branch</font></font></option>
+                                                                    <option value="T00031"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cheonan Buldang branch</font></font></option>
+                                                                    <option value="T00043"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cheonan Shinbu Branch</font></font></option>
+                                                                    <option value="T00035"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cheongju branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="부산·대구·울산·경상" class="dark">
+                                                                    <option value="T00028"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Busan Seomyeon Branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="광주·전라" class="dark">
+                                                                    <option value="T00032"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gwangju branch</font></font></option>
+                                                                    <option value="T00045"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jeonju branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="강원" class="dark">
+                                                                    <option value="T00058"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wonju branch</font></font></option>
+                                                                </optgroup>
+                                                            <optgroup label="제주" class="dark">
+                                                                    <option value="T00068"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jeju branch</font></font></option>
+                                                                </optgroup>
+                                                        </select>
+                        </div>
+                        <form id="schForm" name="schForm" method="post" style="margin-top:0;margin-bottom:0">
+                        <input type="hidden" id="blank" name="blank" value="">
+                        <input type="hidden" id="b" name="b" value="">
+                        <div class="search-form">
+                            <div class="selbox">
+                                <select name="schField" id="schField" class="selbox_select" fdprocessedid="gf90go">
+                                    <option value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">title</font></font></option>
+                                    <option value="2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">detail</font></font></option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <input type="text" id="schWord" name="schWord" value="" class="form-control" fdprocessedid="edmygc">
+                            </div>
+                            <button type="button" class="btn" onclick="goSearch();" fdprocessedid="dmi4eq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">search</font></font></button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="card-board-wrap">
+                        <div class="category-tab-area">
+                            <ul class="category-tab">
+                                <li data-menuanchor="service1" class="active">
+                                    <a href="./brandToxVideo.php?b=&amp;c=" class="h-100"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">entire</font></font></span></a>
+                                </li>
+                                                            <li data-menuanchor="service2">
+                                    <a href="./brandToxVideo.php?b=&amp;c=139"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procedure video</font></font></span></a>
+                                </li>
+                                                            <li data-menuanchor="service2">
+                                    <a href="./brandToxVideo.php?b=&amp;c=140"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tox and Feel Advertisement</font></font></span></a>
+                                </li>
+                                                            <li data-menuanchor="service2">
+                                    <a href="./brandToxVideo.php?b=&amp;c=141"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Experienced medical staff</font></font></span></a>
+                                </li>
+                                                            <li data-menuanchor="service2">
+                                    <a href="./brandToxVideo.php?b=&amp;c=142"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Talk and Feel on TV</font></font></span></a>
+                                </li>
+                                                        </ul>
+                        </div>
+                        <ul class="card-list row d-flex flex-wrap">
+                                                    <li class="col4">
+                                <a href="videoinfo/video.html" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="../images/logobv.png" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Golden Record Award 2022 APAC 1st Winner Tox &amp; Phil | 7th Golden Record Award 2022 Accelerated Growth Award APAC 1st</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">commonness</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2022-10-31</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30411&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250429121443_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Why do people look similar when they turn 50?</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-29</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30410&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250429121355_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Revive, Rejuran Pros and Cons Real Review! (feat. Pain, Embo, Water Glow)</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cheonan Buldang branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-29</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30409&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250429121307_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ear filler that makes you look like a fairy | Tox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-29</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30408&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250429121217_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lip filler that makes you a Hollywood starㅣTox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-29</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30407&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250429121129_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freckle pigment treatment that makes your skin look like porcelainㅣTox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-29</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30350&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422102051_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I got Ulthera+ forehead botox and heard people say, 'I look prettier'</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bundang branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30346&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082451_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Removing forehead wrinkles with JuvegenㅣTox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30345&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082407_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Are you getting fillers in your ears?ㅣTox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30343&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082321_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ear filler that makes your face look smallerㅣTox &amp; Fill Gangnam Main Branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30341&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082128_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If you want a V-line face, Wonderlift treatment video Tox &amp; Fill Cheonan Buldang branch Asan Dermatology, Lifting</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cheonan Buldang branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30342&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082223_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Well, my impression has changed after getting forehead botoxㅣTox &amp; Fill Bundang branch</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bundang branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30340&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422082034_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Video of laser treatment for removing redness and rosacea at Tox &amp; Phil Bundang branch, Pangyo Dermatology Clinic, pigmentation</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bundang branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30339&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422081924_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Forehead wrinkles bye~ Forehead botox treatment video Tox &amp; Fill Gangnam Main Branch Gangnam Station Dermatology, Botox</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30338&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250422081812_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wrinkles around the mouth and lips that make you look older! Solve them like this.</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-22</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li class="col4">
+                                <a href="/brandToxVideoView.php?idx=30282&amp;pno=1&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="bcard-item">
+                                                                    <div class="relative">
+                                        <div class="img-box img_center">
+                                            <img src="https://intranet.bbgnetworks.com/uploadFiles/C00001/boardFile/19/20250415103337_img_1.jpg" alt="">
+                                        </div>
+                                        <span class="vplay"></span>
+                                    </div>
+                                                                    <div class="txt-box">
+                                        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025 Trend 'Fairy Ear Filler' Effects, Maintenance Period, Pain, Side Effects Summary</font></font></strong>
+                                        <div class="txt-small txt_sub">
+                                            <span class="bar_right pr-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gangnam Main Branch</font></font></span>
+                                            <span class="pl-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025-04-15</font></font></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                </ul>
+                    </div>
+                                    <div class="text-center pt-5">
+                        <ul class="pagination">
+                                                                                        <li class="pn-item"><a class="pn-link active" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a></li>
+                                                                                                                    <li class="pn-item"><a class="pn-link" href="/brandToxVideo.php?pno=2&amp;b=&amp;c=&amp;schField=&amp;schWord="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></li>
+                                                                                                                    <li class="pn-item"><a class="pn-link" href="/brandToxVideo.php?pno=3&amp;b=&amp;c=&amp;schField=&amp;schWord="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></a></li>
+                                                                                                                    <li class="pn-item"><a class="pn-link" href="/brandToxVideo.php?pno=4&amp;b=&amp;c=&amp;schField=&amp;schWord="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4</font></font></a></li>
+                                                                                                                    <li class="pn-item"><a class="pn-link" href="/brandToxVideo.php?pno=5&amp;b=&amp;c=&amp;schField=&amp;schWord="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5</font></font></a></li>
+                                                                                <li class="pn-item"><a href="/brandToxVideo.php?pno=6&amp;b=&amp;c=&amp;schField=&amp;schWord=" class="pn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">next</font></font></a></li>
+                                                </ul>
+                    </div>
+                                </div>
+            </div>
+        </div>
+        <!-- 공통푸터 -->
+        
+    
+    <footer class="brand_footer rn_footer">
+        <!-- 2020-10-26 주석처리: 필요없는 기능(풋터 항시노출)
+        <div class="footer-bar">
+            <div class="clear_both f_both_end max_area">
+                <div class="left compInfoBtn">
+                    <span class="selbox">사업자정보</span>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="compInfoWrap">
+            <div class="fix_area">
+                <div class=" both_end bdf-wrap">
+                    <!-- 가맹문의 -->
+                    <div onclick="window.open('http://www.bbgnetworks.com/index.php#contact-us')" class="left member-ask">
+                        <p class="">
+                            <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recruiting franchisees</font></font></strong>
+                        </p>
+                        <span class="rotate_icon__ icon-1">
+                            <img src="/imges/brand/icon/ft_i_member_rotate.png" alt="">
+                        </span>
+                    </div>
+                    <div class="right">
+                        <div class="sns_inner">
+                            <div class="sns_icon">
+                                <div class="sns_blog">
+                                    <a href="https://blog.naver.com/toxnfill" target="_blank"></a>
+                                </div>
+                                <div class="sns_insta">
+                                    <a href="https://www.instagram.com/toxnfill_official/" target="_blank"></a>
+                                </div>
+                                <div class="sns_youtube">
+                                    <a href="https://www.youtube.com/channel/UCFpFZkm7mclD-z_-j7FTUag" target="_blank"></a>
+                                </div>
+                            </div>
+                            <div class="bdf-top-wrap">
+                                <!-- <h1 class="logo"><img src="/imges/logo_r.svg" id="footerLogo" alt="toxnfill"></h1> -->
+                                <h1 class="logo"></h1>
+                                <span class="cp-txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    COPYRIGHTⓒ</font></font><span id="hjNowYear"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2025</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TOXNFILL. All rights reserved. 
+                                     </font></font><a href="http://www.triupcorp.com/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Designed by TRIUP corporation.</font></font></a>
+                                </span>
+                            </div>
+                        </div>
+                                            <div class="rolling_wrap">
+                            <ul class="rolling_list">
+                                                            <li style="overflow: hidden; height: 0.461611px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gangnam Main Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Park Dae-jeong</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 214-13-33847</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-537-4842</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-9025-4842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 10th and 11th floors, Daedong Building, 415 Gangnam-daero, Seocho-gu, Seoul</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gangdong Cheonho Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hyungdon Yoon</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 212-25-50580</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-472-9599</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-8758-0017</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 14th floor, Nabi Building, 14 Cheonho-daero 157-gil, Gangdong-gu, Seoul</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gangseo Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Moon Young-sik</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 755-37-01385</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-6958-8688</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-3068-8291</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 201-207, 2nd floor, Purima Tower, 190 Gonghang-daero, Gangseo-gu, Seoul</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Konkuk University Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Woohyun Han</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 744-06-03017</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-6235-1567</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-3971-1567</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3rd floor (reception), 5th floor, Samjin Building, 237 Achasan-ro, Gwangjin-gu, Seoul</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gwanak Seoul National University Entrance Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jo Seong-woo</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 559-25-01289</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-873-7979</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-7508-8275</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 9th floor, Seoho Building, 488 Bongcheon-ro, Gwanak-gu, Seoul</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gwangju Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Han Min-seong, Jeong Si-on</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 441-49-00855</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 062-372-8800</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-7977-8801</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 4th floor, Shinhwan Building, 207 Uncheon-ro, Seo-gu, Gwangju</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Guri Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Park Hyeon-jeong</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 844-07-00660</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-523-2737</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-7941-2737</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7th floor, Dawoo Square, 253 Gyeongchun-ro, Guri-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Gimpo Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ahn Jung-hyun</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 224-39-00396</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-989-9600</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-4428-8728</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 12th floor, Hanasun City, 129 Gimpohangang 4-ro, Gimpo-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Nowon Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Seoyoung Ahn</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 306-07-65730</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 02-933-7585</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-6857-7585</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3rd floor, Geunho Building, 488 Nohae-ro, Nowon-gu, Seoul (Sanggye-dong)</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Myeongdong Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b>대표:</b> 이현정</span>
+                                        <span><b>사업자번호:</b> 220-12-05373</span>
+                                        <span><b>대표번호:</b> 02-318-5113</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3444-5113</span>
+                                        <span><b>주소:</b> 서울 중구 남대문로 84 8층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 목동점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 이재현</span>
+                                        <span><b>사업자번호:</b> 680-18-01590</span>
+                                        <span><b>대표번호:</b> 02-2692-1131</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3966-1132</span>
+                                        <span><b>주소:</b> 서울 양천구 신정중앙로 103 담우빌딩 4층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 미아사거리점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 송건휘</span>
+                                        <span><b>사업자번호:</b> 607-29-95288</span>
+                                        <span><b>대표번호:</b> 02-983-7585</span><br>
+                                        <span><b>지점휴대번호:</b> 010-8494-7584</span>
+                                        <span><b>주소:</b> 서울 강북구 도봉로 34 트레지오빌딩 2F</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 부산서면점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 오승돈</span>
+                                        <span><b>사업자번호:</b> 371-25-02067</span>
+                                        <span><b>대표번호:</b> 051-717-0510</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3271-0550</span>
+                                        <span><b>주소:</b> 부산 부산진구 서전로 5 이루미메디타워 2층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 부천점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 장유석</span>
+                                        <span><b>사업자번호:</b> 631-56-00645</span>
+                                        <span><b>대표번호:</b> 1544-5275</span><br>
+                                        <span><b>지점휴대번호:</b> 010-8407-9949</span>
+                                        <span><b>주소:</b> 경기 부천시 길주로 273 신명타운 4층 401,402,403호</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 분당점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 강봉주</span>
+                                        <span><b>사업자번호:</b> 725-55-00394</span>
+                                        <span><b>대표번호:</b> 031-707-3500</span><br>
+                                        <span><b>지점휴대번호:</b> 010-8121-3539</span>
+                                        <span><b>주소:</b> 경기 성남시 분당구 성남대로343번길 12-2 신수빌딩 5F</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 세종점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 박민</span>
+                                        <span><b>사업자번호:</b> 543-32-01128</span>
+                                        <span><b>대표번호:</b> 044-414-9200</span><br>
+                                        <span><b>지점휴대번호:</b> 010-8098-3330</span>
+                                        <span><b>주소:</b> 세종특별자치시 나성동 745 에스빌딩 5층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 송파점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 백창훈</span>
+                                        <span><b>사업자번호:</b> 410-55-00250</span>
+                                        <span><b>대표번호:</b> 02-2054-8540</span><br>
+                                        <span><b>지점휴대번호:</b> 010-5170-8540</span>
+                                        <span><b>주소:</b> 서울 송파구 송파대로 167 서울 송파구 송파대로 167 테라타워1 B동 310호</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 수원인계점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 배중선</span>
+                                        <span><b>사업자번호:</b> 124-53-16110</span>
+                                        <span><b>대표번호:</b> 031-225-4842</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3558-4842</span>
+                                        <span><b>주소:</b> 경기 수원시 팔달구 권광로 175 킹스빌딩 5층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 신논현점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 권용휘</span>
+                                        <span><b>사업자번호:</b> 807-18-02404</span>
+                                        <span><b>대표번호:</b> 02-6951-4882</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3642-4842</span>
+                                        <span><b>주소:</b> 서울 강남구 강남대로 484 2층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 안산점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 김송이</span>
+                                        <span><b>사업자번호:</b> 261-09-00909</span>
+                                        <span><b>대표번호:</b> 031-402-4842</span><br>
+                                        <span><b>지점휴대번호:</b> 010-4204-4842</span>
+                                        <span><b>주소:</b> 경기 안산시 단원구 예술대학로 17 중앙노블레스 620호</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 안양점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 강교은</span>
+                                        <span><b>사업자번호:</b> 728-34-00608</span>
+                                        <span><b>대표번호:</b> 031-382-4842</span><br>
+                                        <span><b>지점휴대번호:</b> 010-3898-4842</span>
+                                        <span><b>주소:</b> 경기 안양시 동안구 시민대로 202 에메랄드빌딩 12층 1201호</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 압구정점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 송인권</span>
+                                        <span><b>사업자번호:</b> 211-10-17186</span>
+                                        <span><b>대표번호:</b> 02-542-4842</span><br>
+                                        <span><b>지점휴대번호:</b> 010-6330-4842</span>
+                                        <span><b>주소:</b> 서울 강남구 논현로168길 18 동신빌딩 5층</span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit">[톡스앤필 원주점]</h2>
+                                    <address>
+                                        <span><b>상호명:</b> 톡스앤필의원</span>
+                                        <span><b>대표:</b> 김재순</span>
+                                        <span><b>사업자번호:</b> 3164001161</span>
+                                        <span><b>대표번호:</b> 033-735-7999</span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-3407-3162</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2nd floor, Prime Building, 162 Seowon-daero, Wonju-si, Gangwon-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Icheon Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jang Geuk-seon</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 415-63-00357</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-631-0013</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-2358-0790</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5th floor, Clock Tower Building, 1213, Iseopdaecheon-ro, Icheon-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Incheon Bupyeong Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jang Ye-ji</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 784-06-02433</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 032-506-9916</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-9444-4842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 6th floor, Geumnam Building, 21 Bupyeong-daero, Bupyeong-gu, Incheon</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Incheon Songdo Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Yoo Dong-sik</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 131-35-88850</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 032-422-1755</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-3219-4842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7th floor, 81 Convensia-daero, Yeonsu-gu, Incheon</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Ilsan Juyeop Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jongwoo Yoon</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 633-12-01438</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-994-0188</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-9754-7111</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3rd floor, Dongyoung Building, 1413 Jungang-ro, Ilsanseo-gu, Goyang-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Jeonju Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jinwoo Kim</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 664-24-00829</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 063-272-4842</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-9433-4842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 602, 20 Ongoeul-ro, Wansan-gu, Jeonju-si, Jeollabuk-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Jeju Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bang Ji-yu</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 611-11-16744</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 064-711-4842</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-9600-4842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 201, 2nd floor, Cheongdam Building, 378 Nohyeong-ro, Jeju-si, Jeju Special Self-Governing Province (Nohyeong-dong)</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Cheonan Buldang Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Seo Jeong-ho</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 537-18-00865</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 041-415-0844</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-5898-0844</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 6th floor, Yulgok Square, 176 Buldang 25-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Cheonan Shinbu Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Dora Yoon</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 173-24-02020</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 041-415-0842</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-5668-0842</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7th floor, Gwangsan Building, 40 Mannam-ro, Dongnam-gu, Cheonan-si, Chungcheongnam-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Cheongju Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Moon Jun-seok</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 880-05-02812</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 043-715-6022</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0000</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 301, 3rd floor, Megapolis, 15 Pungsan-ro, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Paju Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Lee Jin</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 386-21-02038</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-948-1231</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-6445-1232</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 4th floor, Central Plaza, 55, Cheongam-ro 17beon-gil, Paju-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                            <li>
+                                    <h2 class="adr_tit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Tox &amp; Phil Pyeongtaek Branch]</font></font></h2>
+                                    <address>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Jung Yun-ho</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 642-49-00711</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 031-658-3101</font></font></span><br>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Branch mobile number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 010-2782-5559</font></font></span>
+                                        <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5th floor, Celeb Plaza, 16 Jungang 2-ro, Pyeongtaek-si, Gyeonggi-do</font></font></span>
+                                    </address>
+                                </li>
+                                                        </ul>
+                        </div>
+                                            <div class="basic_adr">
+                            <div class="sitepolicy">
+                                <a href="/brandAcceptSite.php" target="_blank" class="bar_right"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Terms of Use</font></font></a>
+                                <a href="/brandAcceptPrivacy.php" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privacy policy</font></font></a>
+                            </div>
+                            <address>
+                                <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business name:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tox &amp; Phil Clinic</font></font></span>
+                                <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Park Dae-jeong</font></font></span>
+                                <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Business Number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 214-13-33847</font></font></span><br> 
+                                <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Representative number:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1661-4842</font></font></span> 
+                                <span><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Department:</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Dermatology, Plastic Surgery</font></font></span><br> 
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button type="button" onclick="topFunc()" id="goTop" class="brand-shadow item gtop" style="display: none;">
+        <span class="sr_only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Top of page</font></font></span>
+        <img src="/imges/goTop.png" alt="To the top" width="15px" height="15px" class="m0auto">
+    </button>
+    
+    <div class="sr-only">
+        <!-- 네이버 연관채널 -->
+        <span itemscope="" itemtype="http://schema.org/Organization">
+        <link itemprop="url" href="https://www.toxnfill.com">
+        <a itemprop="sameAs" href="https://www.youtube.com/channel/UCFpFZkm7mclD-z_-j7FTUag"></a>
+        <a itemprop="sameAs" href="https://blog.naver.com/toxnfill"></a>
+        <a itemprop="sameAs" href="https://www.instagram.com/toxnfill_official/"></a>
+        </span>
+    </div>
+    
+    <script src="/common/js/common.js"></script>
+    <script>
+        function goBranchHome(goURL) {
+            if ( goURL ) {
+                window.open(goURL, '톡스앤필')
+            }
+        }
+    
+        var windowHeight = $(window).height();
+        var minHeight = windowHeight - 2;
+        $('#bcontentWrap').css('min-height', minHeight);
+    
+        //롤링 스크립트
+        function rolling() {
+            $('.rolling_list > li:first').slideUp(function() {
+                $(this).appendTo($('.rolling_list')).slideDown();
+            });
+        }
+        setInterval(function() { rolling() }, 5000);
+    
+        /* 2020-10-26 주석처리: 필요없는 기능(풋터 항시노출)
+        $(document).ready(function() {
+            //푸터  아코디언
+            var compInfoBtn				=	$('.compInfoBtn');
+            var compInfoWrap			=	$('.compInfoWrap');
+    
+            compInfoBtn.click(function(){
+                compInfoBtn.toggleClass('off');
+                compInfoWrap.toggleClass('sr_only');
+                $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+            });
+    
+            // 푸터 아코디언 메인 init
+            if( location.pathname ==='/' || location.pathname === '/brand.php' || location.pathname ==='/brandT.php' ) {
+                $('footer').addClass('footer');
+                $('#footerLogo').attr('src', '/imges/logo_w.svg');
+                //compInfoBtn.addClass('off');
+                //compInfoWrap.addClass('sr_only');
+            }
+        })
+    
+        $(document).bind('keydown', function(e){
+            if(e.keyCode == 123 ){
+                e.preventDefault();
+                e.returnValue = false;
+            }
+        })	
+        $(document).bind('contextmenu', function(e){
+            return false;
+        })
+        */
+    </script>
+    <script>
+        var hjNow = new Date();
+        var hjNowYear = hjNow.getFullYear();
+        $('#hjNowYear').html(hjNowYear);
+    </script>
+    
+    
+    <script type="application/ld+json">
+    {
+     "@context": "http://schema.org",
+     "@type": "Person",
+     "name": "톡스앤필",
+     "url": "https://www.toxnfill.com",
+     "sameAs": [
+       "https://www.youtube.com/channel/UCFpFZkm7mclD-z_-j7FTUag"
+     ]
+    }
+    </script>	<!-- //공통푸터 -->
+    </div>
+    
+    
+    
+    
+    
+    <div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class=" VIpgJd-yAWNEb-hvhgNd-l4eHX-i3jM8c"><img src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""></div><div class=" VIpgJd-yAWNEb-hvhgNd-k77Iif-i3jM8c"><div class="VIpgJd-yAWNEb-hvhgNd-IuizWc" dir="ltr">Original text</div><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0"></iframe></div></div></div><script type="text/javascript">
+    function goSearch()
+    {
+        var frm						=	document.schForm;
+    
+        if ( frm.schField.value == "" ) {
+            alert("검색 구분을 선택해 주십시오.");
+            frm.schField.focus();
+            return false;
+        }
+    
+        if ( frm.schWord.value == "" ) {
+            alert("검색어를 입력해 주십시오.");
+            frm.schWord.focus();
+            return false;
+        }
+    
+        frm.target					=	"_self";
+        frm.action					=	"/brandToxVideo.php";
+        frm.submit();
+    }
+    </script><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body><ddict-div style="visibility: visible !important;"></ddict-div></html>
