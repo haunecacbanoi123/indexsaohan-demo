@@ -188,7 +188,7 @@ body.main > .maxframe {
 
 }
 .swiper-button-wrap .prev {
-	background: url('/imges/brand/icon/2025/i_arrow_border_right.svg') no-repeat center / contain;
+	background: url('../images/i_arrow_border_right.png') no-repeat center / contain;
     width: 39px;
     height: 39px;
     rotate: 180deg;
@@ -224,7 +224,7 @@ body.main > .maxframe {
     background-color: #000000;
 }
 .swiper-button-wrap .next{
-	background: url('/imges/brand/icon/2025/i_arrow_border_right.svg') no-repeat center / contain;
+	background: url('../images/i_arrow_border_right.png') no-repeat center / contain;
     width: 39px;
     height: 39px;
     cursor: pointer;
@@ -1028,7 +1028,7 @@ body.main > .maxframe {
 }
 #samjung-sec.advertSwiper .swiper-pagination.img__ .swiper-pagination-bullet {
 	position: relative;
-	background-image: url(/imges/brand/icon/icon-key-w.png);
+	background-image: url(../images/i_arrow_border_right.png);
 	width: 23px;
 	height: 44px;
 	border: none;

@@ -285,9 +285,144 @@
             }
         </script>
         </head>
-        <body class="main brand-renew"><div id="quick-counsel-wrap">
-            <div id="quick-counsel-close" onclick="closeQuickDropdown()"></div>
-        </div>
+        <body class="main brand-renew">
+            <div id="quick-counsel-wrap">
+                <div id="quick-counsel-close" onclick="closeQuickDropdown()"></div>
+                <button onclick="toggleQuickCounsel()" type="button" class="quick-counsel-wrap__button" fdprocessedid="hnqwz">
+                    <span>Đặt Lịch Tại Đây</span>
+                </button>
+                <div class="quick-counsel-wrap__line"></div>
+                <form action="" name="reservationForm" id="reservationForm">
+                    <input type="hidden" name="reservationBranch" id="reservationBranch" value="">
+                    <input type="hidden" name="reservationDate" id="reservationDate" value="">
+                    <input type="hidden" name="reservationTime" id="reservationTime" value="">
+                    <input type="hidden" name="gender" id="gender" value="">
+                    <div class="quick-counsel-content">
+                        <div class="quick-counsel-content__title">
+                            톡스앤필<br>빠른 상담<br>문의
+                        </div>
+                        <div class="quick-counsel-content__step1">
+                            <div class="chip">
+                                STEP
+                                <span>01</span>
+                            </div>
+                            <div class="dropdown-container">
+                                <ul class="dropdown dropdown-branch" data-dropdown="branch">
+                                                                <li data-value="T00002">강남본점</li>
+                                                                <li data-value="T00012">강동천호점</li>
+                                                                <li data-value="T00016">강서점</li>
+                                                                <li data-value="T00048">건대점</li>
+                                                                <li data-value="T00013">관악서울대입구점</li>
+                                                                <li data-value="T00032">광주점</li>
+                                                                <li data-value="T00025">구리점</li>
+                                                                <li data-value="T00017">김포점</li>
+                                                                <li data-value="T00011">노원점</li>
+                                                                <li data-value="T00010">명동점</li>
+                                                                <li data-value="T00057">목동점</li>
+                                                                <li data-value="T00046">미아사거리점</li>
+                                                                <li data-value="T00028">부산서면점</li>
+                                                                <li data-value="T00090">부천점</li>
+                                                                <li data-value="T00049">분당점</li>
+                                                                <li data-value="T00074">세종점</li>
+                                                                <li data-value="T00015">송파점</li>
+                                                                <li data-value="T00020">수원인계점</li>
+                                                                <li data-value="T00094">신논현점</li>
+                                                                <li data-value="T00022">안산점</li>
+                                                                <li data-value="T00026">안양점</li>
+                                                                <li data-value="T00004">압구정점</li>
+                                                                <li data-value="T00058">원주점</li>
+                                                                <li data-value="T00047">이천점</li>
+                                                                <li data-value="T00021">인천부평점</li>
+                                                                <li data-value="T00093">인천송도점</li>
+                                                                <li data-value="T00059">일산주엽점</li>
+                                                                <li data-value="T00045">전주점</li>
+                                                                <li data-value="T00068">제주점</li>
+                                                                <li data-value="T00031">천안불당점</li>
+                                                                <li data-value="T00043">천안신부점</li>
+                                                                <li data-value="T00035">청주점</li>
+                                                                <li data-value="T00073">파주점</li>
+                                                                <li data-value="T00036">평택점</li>
+                                                        </ul>
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="branch">
+                                    <div id="reservationBranchText">지점을 선택해 주세요.</div><span>*</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-container">
+                                <div class="dropdown dropdown-date renew_reservation" id="reservationDayListDiv" data-dropdown="date"></div>
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="date">
+                                    <div id="reservationDateText">희망 날짜를 선택해 주세요.</div><span>*</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-container">
+                                <div class="dropdown dropdown-time renew_reservation" data-dropdown="time">
+                                    <div class="rs-time-box">
+                                        <div class="time-box-scoll c_scroll reservation-box">
+                                            <ul class="row time-box" id="reservationTimeListDiv">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="time">
+                                    <div id="reservationTimeText">희망 시간을 선택해 주세요.</div><span>*</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quick-counsel-content__step2">
+                            <div class="chip">
+                                STEP
+                                <span>02</span>
+                            </div>
+                            <div class="input-container">
+                                <div class="input-box">
+                                    <input type="text" placeholder="이름" name="reservationName" fdprocessedid="mrm8l">
+                                    <span class="input-placeholder required">이름</span>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" placeholder="연락처" name="reservationMobile" fdprocessedid="owifr3">
+                                    <span class="input-placeholder required">연락처</span>
+                                </div>
+                                <div class="input-box dropdown-container">
+                                    <ul class="dropdown" data-dropdown="gender">
+                                        <li data-value="male">남자</li>
+                                        <li data-value="female">여자</li>
+                                    </ul>
+                                    <div class="dropdown-container__input dropdown-container2" data-dropdown="gender">
+                                        <div id="genderText">성별</div><span>*</span>
+                                    </div>
+                                </div>
+                                <textarea type="text" placeholder="상담 요청 내용" name="reservationMemo"></textarea>
+                            </div>
+                        </div>
+                        <div class="quick-counsel-content__step3">
+                            <div class="checkbox">
+                                <input type="checkbox" id="allAgree" data-agree="all">
+                                <label for="allAgree">전체 동의</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="privacyAgree" data-agree="item" name="privacyAgree" value="Y">
+                                <label for="privacyAgree">
+                                    <span>[필수] </span>
+                                    <div>
+                                        서비스 이용 및 예약 신청을 위한 개인정보 제공에 동의
+                                        <a href="https://www.toxnfill.com/brandAcceptSite.php" target="_blank">이용약관</a>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="marketingAgree" data-agree="item" name="marketingAgree" value="Y">
+                                <label for="marketingAgree">
+                                    <span>[선택] </span>
+                                    <div>
+                                        마케팅 활용에 대한 동의
+                                        <a href="https://www.toxnfill.com/brandAcceptPrivacy.php" target="_blank">이용약관</a>
+                                    </div>
+                                </label>
+                            </div>
+                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">상담 신청</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         <script src="common/js/jquery-ui.min.js"></script>
         <script>
         
@@ -646,18 +781,18 @@
                                     <li id="branchActive" class="active">
                                         <a href="javascript:;" onclick="depthLocation(this);">SaoHan Hospital Deluxe</a>
                                         <ul>
-                                            <li><a href="">Thương Hiệu</a></li>
-                                            <li><a href="">Đội Ngũ Chuyên Môn</a></li>
-                                            <li><a href="">Trang Thiết Bị</a></li>
-                                            <li><a href="">Đào Tạo Liên Tục</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=TI1xaBb-O6w">Thương Hiệu</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=LeniewZz_jM&t=11738s">Đội Ngũ Chuyên Môn</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=21bYtRCXRJE">Trang Thiết Bị</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=5WGtlSqR4O0">Đào Tạo Liên Tục</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="javascript:;" onclick="depthLocation(this);">Dịch Vụ</a>
                                         <ul>
-                                            <li><a href="">Xóa Nhăn</a></li>
-                                            <li><a href="">Làm Đầy / Điêu Khắc Khuôn Mặt</a></li>
-                                            <li><a href="">Tạo Dáng Cơ Thể</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=UYvBkW-bNm4">Xóa Nhăn</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=6FqKebGKXE4">Làm Đầy / Điêu Khắc Khuôn Mặt</a></li>
+                                            <li><a href="https://www.youtube.com/watch?v=sknOBFSmOv4&t=241s">Tạo Dáng Cơ Thể</a></li>
                                             <li><a href="">Nâng Chỉ</a></li>
                                             <li><a href="">Điều Trị Sắc Tố</a></li>
                                             <li><a href="">Trị Mụn</a></li>
@@ -883,6 +1018,7 @@
                 <span class="dot-bg dot4"></span>
                 <span class="dot-bg dot5"></span>
               </div>
+              <!-- reviews -->
               <div class="reviews">
                 <h2>Nội dung đánh giá</h2>
                 <ul>
@@ -894,6 +1030,7 @@
                     <li><strong>Trần Thanh Phương:</strong> “Mình 35t, da bắt đầu khô với xỉn màu. Làm meso HA & DNA cá hồi xong da mềm mịn, sáng rõ và căng hơn thấy rõ. Nhìn da khỏe khoắn hẳn, rất ưng!”</li>
                 </ul>
             </div>
+            <!-- reviews -->
             <div class="channel-container">
                 <div class="title-box">
                   <p class="brand">SAOHAN DELUX</p>
