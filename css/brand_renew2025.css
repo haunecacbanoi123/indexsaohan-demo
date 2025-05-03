@@ -57,7 +57,7 @@ body.main > .maxframe {
 	margin: 0 auto 15px;
 	width: 150px;
 	aspect-ratio: 321 / 59;
-	background: url('/imges/renew/logo_toxnfill.png') no-repeat center / contain;
+	background: url() no-repeat center / contain;
 }
 .brand-renew section .inner {
     width: 1180px;
@@ -147,7 +147,7 @@ body.main > .maxframe {
 }
 .card-with-link .card-with-link__btn{
     margin-top: 22.8px;
-    background: url('/imges/brand/icon/2025/i_arrow_border_right.svg') no-repeat center / cover;
+    background: url() no-repeat center / cover;
     width: 39px;
     height: 39px;
     filter: brightness(0) invert(0);
@@ -191,7 +191,7 @@ body.main > .maxframe {
 
 }
 .swiper-button-wrap .prev {
-	background: url('../images/i_arrow_border_right.png') no-repeat center / contain;
+	background: url() no-repeat center / contain;
     width: 39px;
     height: 39px;
     rotate: 180deg;
@@ -227,7 +227,7 @@ body.main > .maxframe {
     background-color: #000000;
 }
 .swiper-button-wrap .next{
-	background: url('../images/i_arrow_border_right.png') no-repeat center / contain;
+	background: url() no-repeat center / contain;
     width: 39px;
     height: 39px;
     cursor: pointer;
@@ -351,7 +351,7 @@ body.main > .maxframe {
 	width: 21px;
     height: 21px;
 	aspect-ratio: 21/21;
-	background: url('/imges/brand/icon/2025/i_new.svg') no-repeat center / contain;
+	background: url() no-repeat center / contain;
     top: 0;
     right: auto;
 }
@@ -362,7 +362,7 @@ body.main > .maxframe {
 	width: 21px;
     height: 21px;
 	aspect-ratio: 21/21;
-	background: url('/imges/brand/icon/2025/i_coming.svg') no-repeat center / contain;
+	background: url() no-repeat center / contain;
     top: 0;
     right: auto;
 }
@@ -653,7 +653,7 @@ body.main > .maxframe {
 
 /* before&after section */
 #before-after-sec{
-    background: url('/imges/brand/icon/2025/before_after_bg.jpg') no-repeat center / cover;
+    background: url('') no-repeat center / cover;
     height: 530px;
     width: 100%;
     display: flex;
@@ -666,7 +666,7 @@ body.main > .maxframe {
     height: 300px;
 }
 #before-after-sec .img-box{
-    background: url('/imges/brand/icon/2025/before_after.jpg') no-repeat center / cover;
+    background: url('') no-repeat center / cover;
 }
 /* before&after section */
 
@@ -774,7 +774,7 @@ body.main > .maxframe {
     left: 35px;
     width: 632px;
     aspect-ratio: 632 / 851;
-    background: url('/imges/renew/brand_map_bg.png') no-repeat center / contain;
+    background: url('') no-repeat center / contain;
 }
 .brand-spot-map .brand-spot {
     position: absolute;
@@ -937,7 +937,7 @@ body.main > .maxframe {
     display: inline-block;
     width: 27px;
     aspect-ratio: 27/19;
-    background: url('/imges/renew/brand_ico_arrow.png') no-repeat center / contain;
+    background: url('') no-repeat center / contain;
     margin: 0 6px 2px;
 }
 .brand-spot-history__list li {
@@ -1191,12 +1191,12 @@ body.main > .maxframe {
 #sns-sec {
 	max-width: 1920px;
 	max-height: 1080px;
-	background: url('/imges/renew/sns_bg_pc.jpg') no-repeat center / cover;
+	background: url() no-repeat center / cover;
 	margin: 0 auto;
 	padding: 92px 0 76px;
 }
 #sns-sec .title-box::before {
-    background: url(/imges/renew/logo_toxnfill_w.png) no-repeat center / contain;
+    background: url() no-repeat center / contain;
     content: '';
     display: block;
     margin: 0 auto 15px;
@@ -1247,7 +1247,7 @@ body.main > .maxframe {
 	right: -16px;
 	width: 386px;
 	aspect-ratio: 386 / 741;
-	background: url('/imges/renew/mo_mockup.png') no-repeat center / contain;
+	background: url() no-repeat center / contain;
 	pointer-events: none;
 }
 .sns-box__bg {

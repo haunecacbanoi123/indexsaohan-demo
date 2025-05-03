@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 @font-face {
     font-family: 'Campton';
@@ -90,10 +90,10 @@
     font-weight: 900;
     font-display: swap;
     src: url('/font/NotoSans-Black.woff2');
-}
+} */
 
 /* 나눔스퀘어_ac */
-@font-face {
+/* @font-face {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 300;
@@ -205,12 +205,12 @@
     font-weight: 300;
     font-display: swap;
     src: url('/font/GmarketSansLight.woff');
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'Spartan';
     font-style: normal;
     font-weight: bold;
     font-display: swap;
     src: url('/font/league-spartan-v11-latin-700.woff2');
-}
+} */
