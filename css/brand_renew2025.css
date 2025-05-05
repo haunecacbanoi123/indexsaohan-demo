@@ -550,13 +550,14 @@ body.main > .maxframe {
   .brand {
     font-size: 15px;
     color: #ccc;
-    margin-right: 1360px ;
+    margin-right: 1350px ;
   }
 
     .channel-container {
     background: url(../images/cnbgr.png);
+    background-repeat: no-repeat;
     color: white;
-    padding: 100px 20px;
+    padding: auto;
     position: relative;
     text-align: center;
     overflow: hidden;
