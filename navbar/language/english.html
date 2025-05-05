@@ -34,23 +34,23 @@
         <meta name="twitter:image" content="/imges/toxnfill_thumb.png"> -->
         
         <!-- favicon -->
-        <link rel="icon" type="image/png" sizes="32x32" href="images/logobv.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/logobv.png">
         <link rel="manifest" href="site.webmanifest">
         
         <!-- css -->
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="/css/font.css">
-        <link rel="stylesheet" href="/css/vendor/swiper.min.css">
-        <link rel="stylesheet" href="/css/overrides.css">
-        <link rel="stylesheet" href="/css/brand.common.css">
-        <link rel="stylesheet" href="/css/brand.layout.css">
-        <link rel="stylesheet" href="/css/brand.css">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/font.css">
+        <link rel="stylesheet" href="../../css/vendor/swiper.min.css">
+        <link rel="stylesheet" href="../../css/overrides.css">
+        <link rel="stylesheet" href="../../css/brand.common.css">
+        <link rel="stylesheet" href="../../css/brand.layout.css">
+        <link rel="stylesheet" href="../../css/brand.css">
         
         <!-- <script async="" src="//fs.bizspring.net/fs4/bstrk.1.js"></script>
         <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script> -->
-        <script src="/common/js/jquery-1.12.4.min.js"></script>
-        <script src="/common/js/swiper.min.js"></script>
-        <script src="/common/js/default.js"></script>
+        <script src="../../common/js/jquery-1.12.4.min.js"></script>
+        <script src="../../common/js/swiper.min.js"></script>
+        <script src="../../common/js/default.js"></script>
         <!-- 브랜드페이지 js추가 -->
         <!--<script src="/common/js/brand.js"></script>-->
         
@@ -255,10 +255,10 @@
         
         
         </script>
-        <link rel="stylesheet" href="/css/animation.css">
-        <link rel="stylesheet" href="/css/datepicker.css">
-        <link rel="stylesheet" href="/css/pg_reservation.css">
-        <link rel="stylesheet" href="/css/quickCounsel.css">
+        <link rel="stylesheet" href="../../css/animation.css">
+        <link rel="stylesheet" href="../../css/datepicker.css">
+        <link rel="stylesheet" href="../../css/pg_reservation.css">
+        <link rel="stylesheet" href="../../css/quickCounsel.css">
         <script>
             function getAjaxData(divID, goURL, gubun, corpCode, tcode = '', date = '')
             {
@@ -298,10 +298,60 @@
                     <input type="hidden" name="reservationTime" id="reservationTime" value="">
                     <input type="hidden" name="gender" id="gender" value="">
                     <div class="quick-counsel-content">
+                        <div class="quick-counsel-content__title">
+                            Tư Vấn Nhanh<br>Sao Han<br>Deluxe
+                        </div>
                         <div class="quick-counsel-content__step1">
-                            <div class="dropdown-container">
+                            <div class="chip">
+                                Bước
+                                <span>01</span>
                             </div>
                             <div class="dropdown-container">
+                                <ul class="dropdown dropdown-branch" data-dropdown="branch">
+                                                                <li data-value="T00002">강남본점</li>
+                                                                <li data-value="T00012">강동천호점</li>
+                                                                <li data-value="T00016">강서점</li>
+                                                                <li data-value="T00048">건대점</li>
+                                                                <li data-value="T00013">관악서울대입구점</li>
+                                                                <li data-value="T00032">광주점</li>
+                                                                <li data-value="T00025">구리점</li>
+                                                                <li data-value="T00017">김포점</li>
+                                                                <li data-value="T00011">노원점</li>
+                                                                <li data-value="T00010">명동점</li>
+                                                                <li data-value="T00057">목동점</li>
+                                                                <li data-value="T00046">미아사거리점</li>
+                                                                <li data-value="T00028">부산서면점</li>
+                                                                <li data-value="T00090">부천점</li>
+                                                                <li data-value="T00049">분당점</li>
+                                                                <li data-value="T00074">세종점</li>
+                                                                <li data-value="T00015">송파점</li>
+                                                                <li data-value="T00020">수원인계점</li>
+                                                                <li data-value="T00094">신논현점</li>
+                                                                <li data-value="T00022">안산점</li>
+                                                                <li data-value="T00026">안양점</li>
+                                                                <li data-value="T00004">압구정점</li>
+                                                                <li data-value="T00058">원주점</li>
+                                                                <li data-value="T00047">이천점</li>
+                                                                <li data-value="T00021">인천부평점</li>
+                                                                <li data-value="T00093">인천송도점</li>
+                                                                <li data-value="T00059">일산주엽점</li>
+                                                                <li data-value="T00045">전주점</li>
+                                                                <li data-value="T00068">제주점</li>
+                                                                <li data-value="T00031">천안불당점</li>
+                                                                <li data-value="T00043">천안신부점</li>
+                                                                <li data-value="T00035">청주점</li>
+                                                                <li data-value="T00073">파주점</li>
+                                                                <li data-value="T00036">평택점</li>
+                                                        </ul>
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="branch">
+                                    <div id="reservationBranchText">Vui lòng chọn dịch vụ</div><span>*</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-container">
+                                <div class="dropdown dropdown-date renew_reservation" id="reservationDayListDiv" data-dropdown="date"></div>
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="date">
+                                    <div id="reservationDateText">Vui lòng chọn ngày</div><span>*</span>
+                                </div>
                             </div>
                             <div class="dropdown-container">
                                 <div class="dropdown dropdown-time renew_reservation" data-dropdown="time">
@@ -313,67 +363,43 @@
                                     </div>
                                 </div>
                                 <div class="dropdown-container__input dropdown-container2" data-dropdown="time">
-                                    <div id="reservationTimeText">희망 시간을 선택해 주세요.</div><span>*</span>
+                                    <div id="reservationTimeText">Vui lòng chọn thời gian</div><span>*</span>
                                 </div>
                             </div>
                         </div>
                         <div class="quick-counsel-content__step2">
                             <div class="chip">
-                                STEP
+                                Bước
                                 <span>02</span>
                             </div>
                             <div class="input-container">
                                 <div class="input-box">
                                     <input type="text" placeholder="이름" name="reservationName" fdprocessedid="mrm8l">
-                                    <span class="input-placeholder required">이름</span>
+                                    <span class="input-placeholder required">Tên</span>
                                 </div>
                                 <div class="input-box">
                                     <input type="text" placeholder="연락처" name="reservationMobile" fdprocessedid="owifr3">
-                                    <span class="input-placeholder required">연락처</span>
+                                    <span class="input-placeholder required">Số điện thoại</span>
                                 </div>
                                 <div class="input-box dropdown-container">
                                     <ul class="dropdown" data-dropdown="gender">
-                                        <li data-value="male">남자</li>
-                                        <li data-value="female">여자</li>
+                                        <li data-value="male">Nam</li>
+                                        <li data-value="female">Nữ</li>
                                     </ul>
                                     <div class="dropdown-container__input dropdown-container2" data-dropdown="gender">
-                                        <div id="genderText">성별</div><span>*</span>
+                                        <div id="genderText">Giới tính</div><span>*</span>
                                     </div>
                                 </div>
-                                <textarea type="text" placeholder="상담 요청 내용" name="reservationMemo"></textarea>
+                                <textarea type="text" placeholder="Yêu cầu tư vấn" name="reservationMemo"></textarea>
                             </div>
                         </div>
                         <div class="quick-counsel-content__step3">
-                            <div class="checkbox">
-                                <input type="checkbox" id="allAgree" data-agree="all">
-                                <label for="allAgree">전체 동의</label>
-                            </div>
-                            <div class="checkbox">
-                                <input type="checkbox" id="privacyAgree" data-agree="item" name="privacyAgree" value="Y">
-                                <label for="privacyAgree">
-                                    <span>[필수] </span>
-                                    <div>
-                                        서비스 이용 및 예약 신청을 위한 개인정보 제공에 동의
-                                        <a href="https://www.toxnfill.com/brandAcceptSite.php" target="_blank">이용약관</a>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <input type="checkbox" id="marketingAgree" data-agree="item" name="marketingAgree" value="Y">
-                                <label for="marketingAgree">
-                                    <span>[선택] </span>
-                                    <div>
-                                        마케팅 활용에 대한 동의
-                                        <a href="https://www.toxnfill.com/brandAcceptPrivacy.php" target="_blank">이용약관</a>
-                                    </div>
-                                </label>
-                            </div>
-                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">상담 신청</button>
+                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">Yêu cầu tư vấn</button>
                         </div>
                     </div>
                 </form>
             </div>
-        <script src="/common/js/jquery-ui.min.js"></script>
+        <script src="../../common/js/jquery-ui.min.js"></script>
         <script>
         
         
@@ -596,8 +622,8 @@
                 reservationSubmit();
             });
         
-        </script><link rel="stylesheet" href="/css/popup.css">
-        <link rel="stylesheet" href="/css/brand_renew2025.css">
+        </script><link rel="stylesheet" href="../../css/popup.css">
+        <link rel="stylesheet" href="../../css/brand_renew2025.css">
         
         
         
@@ -609,8 +635,8 @@
             <header id="header" class="dim main">
                 <div class="fix_area">
                     <h1 class="logo">
-                        <a href="/index.html" class="">
-                            <img src="/images/logobv.png" alt="톡스앤필">
+                        <a href="../../index.html" class="">
+                            <img src="../../images/logobv.png" alt="톡스앤필">
                         </a>
                     </h1>
                     <nav id="nav">
@@ -643,14 +669,14 @@
                                         </a>
                                         <ul class="secon_menu" id="langDropdown">
                                             <li>
-                                                <a href="english.html" >
+                                                <a href="/navbar/language/english.html" >
                                                     <div class="icon-front-text">
                                                         <span>English</span>
                                                     </div>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="vietnamese.html">
+                                                <a href="/navbar/language/vietnamese.html">
                                                     <div class="icon-front-text">
                                                         <div class="icon_sec flag_icon">
                                                         </div>
@@ -696,7 +722,7 @@
                                             <li><a href="">Thông Báo</a></li>
                                             <li><a href="">Kiến Thức Làm Đẹp</a></li>
                                             <li><a href="">Video Dịch Vụ</a></li>
-                                            <li><a href="indexchild/videoinfo.html">Video Kiến Thức</a></li>
+                                            <li><a href="/navbar/inforbeauty/infovideo/videoinfo.html">Video Kiến Thức</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -720,7 +746,7 @@
                     </nav>
                 </div>
             </header>
-            <script src="/common/js/common.js"></script>
+            <script src="../../common/js/common.js"></script>
             <script>
                 function depthLocation(btn){
                     var submenu = btn.nextElementSibling;
@@ -753,7 +779,7 @@
                         <div class="video-wrap">
                             <div class="video-cover">
                                 <div id="mainBannerImg" class="" >
-                                    <img src="/images/header-bgr.png" alt="bannerImg">
+                                    <img src="../../images/header-bgr.png" alt="bannerImg">
                                 </div>
                             </div>
                         </div>
@@ -790,10 +816,10 @@
                                                     <div class="event-info">
                                                             <div class="events-slider">
                                                                 <div class="event-card">
-                                                                    <img src="/images/ev1.png" alt="Sự kiện 1">
+                                                                    <img src="../../images/ev1.png" alt="Sự kiện 1">
                                                                     </div>
                                                                 <div class="event-card">
-                                                                    <img src="/images/ev2.png" alt="Sự kiện 2">
+                                                                    <img src="../../images/ev2.png" alt="Sự kiện 2">
                                                                     </div>
                                                                 </div>
                                 </div>
@@ -815,19 +841,19 @@
                                 <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="margin-right: 4px;">
                                         <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
-                                                <img src="/images/tech1.jpg" alt="">
+                                                <img src="../../images/tech1.jpg" alt="">
                                             </div>
                                         </a>
                                     </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" style="margin-right: 4px;">
                                         <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
-                                                <img src="/images/tech2.jpg" alt="">
+                                                <img src="../../images/tech2.jpg" alt="">
                                             </div>
                                         </a>
                                     </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 4px;">
                                         <a class="signature-info" href="#">
                                             <div class="signature-info__thumb">
-                                                <img src="/images/tech3.jpg" alt="">
+                                                <img src="../../images/tech3.jpg" alt="">
                                             </div>
                                         </a>
                                     </div>
@@ -888,13 +914,13 @@
                 <p class="name">Anna Long</p>
               
                 <!-- Avatar Images -->
-                <img src="/images/fbavt1.jpg" class="avatar avatar1" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar2" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar3" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar4" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar5" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar6" />
-                <img src="/images/fbavt1.jpg" class="avatar avatar7" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar1" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar2" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar3" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar4" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar5" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar6" />
+                <img src="../../images/fbavt1.jpg" class="avatar avatar7" />
           
                 <!-- Background Dots -->
                 <span class="dot-bg dot1"></span>
@@ -918,7 +944,7 @@
             <!-- reviews -->
             <div class="channel-container">
                 <div class="title-box">
-                  <p class="brand">SAOHAN DELUX</p>
+                  <p class="brand">SAOHAN DELUXE</p>
                   <h2 class="title">CÁC KÊNH SOCAL</h2>
                   <div class="underline"></div>
                 </div>
@@ -932,7 +958,7 @@
               <div class="footer-container">
                 <div class="footer-row">
                   <div class="footer-left">
-                    <h2>SAOHAN DELUX</h2>
+                    <h2>SAOHAN DELUXE</h2>
                     <div class="line-left"></div>
                   </div>
                   <div class="line-right"></div>
@@ -940,7 +966,7 @@
                 <p class="footer-text"><em><u>các thông tin cuối web</u></em></p>
               </div>       
             <!-- 공통푸터 -->
-        <script src="/common/js/common.js"></script>
+        <script src="../../common/js/common.js"></script>
         <script>
             // $(function () {
             //     var $window = $(window);
@@ -1017,8 +1043,8 @@
                 </div>
             </div> -->
         
-        <script src="/common/js/countUp.min.js"></script>
-        <script src="/common/js/vimeo.player.js"></script>
+        <script src="../../common/js/countUp.min.js"></script>
+        <script src="../../common/js/vimeo.player.js"></script>
         <script>
             openPopup('brandPopup');
         

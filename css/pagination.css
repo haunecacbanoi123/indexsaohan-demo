@@ -1,0 +1,27 @@
+.pagination { 
+	 display: inline-block;
+	 clear: both;
+}
+
+.pagination .pn-item {
+	float: left;
+	margin-right: 1rem;
+}
+
+.pagination .pn-item:last-child { 
+	margin-right: 0;
+}
+
+.pagination .pn-link { 
+    min-width: 2.6rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    line-height: 1;
+}
+
+.pagination .pn-link.active { 
+	background-color: #a73439;
+	color: #fff;
+}
