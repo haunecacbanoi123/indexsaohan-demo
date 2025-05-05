@@ -4467,7 +4467,9 @@ footer{
 #header.dim.main:hover {background-color:#fff;}
 #header.dim.main:hover #nav .gnb_menu > li > a {color:#000;}
 #header.dim.main:hover #nav .nav_top .item {color:#4a4a4a;}
-#header.dim.main h1.logo img {filter:brightness(1);}
+#header h1.logo img {filter:brightness(1);}
+#header.dim.main h1.logo img {filter:brightness(0) invert(1);}
+#header.dim.main:hover h1.logo img {filter:brightness(1);}
 #header.dim.main #nav .nav_top .global > span {color:rgba(255,255,255,.7)}
 #header.dim.main #nav .nav_top .global > span.carvon:after {border-color:rgba(255,255,255,.7)}
 #header.dim.main:hover #nav .nav_top .global > span {color:#4a4a4a;}
