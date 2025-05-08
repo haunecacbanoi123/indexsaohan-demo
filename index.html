@@ -394,18 +394,19 @@
                             </div>
                         </div>
                         <div class="quick-counsel-content__step3">
-                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">Yêu cầu tư vấn</button>
+                            <div class="checkbox">
+                                <input type="checkbox" id="allAgree" data-agree="all">
+                            </div>
+                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">Gửi yêu cầu</button>
                         </div>
                     </div>
                 </form>
             </div>
         <script src="common/js/jquery-ui.min.js"></script>
         <script>
-        
-        
             const QC = (function() {
-                const agreeAll = document.querySelector("[data-agree=all]"); // 전체 동의 체크박스
-                const agreeList = document.querySelectorAll("[data-agree=item]"); // 개별 동의 체크박스 리스트
+                const agreeAll = document.querySelector("[data-agree=all]"); 
+                const agreeList = document.querySelectorAll("[data-agree=item]");
                 document.addEventListener('DOMContentLoaded', function() {
                     setAgreementHandlers();
                     setQuickBranchHandlers();
@@ -450,7 +451,7 @@
                             });
                         });
                     }
-        
+           
                     function setAgreementHandlers() {
                         agreeList.forEach(checkbox => {
                             checkbox.addEventListener('click', function() {
@@ -467,7 +468,7 @@
         
                 function resetDate() {
                     const label = document.querySelector('#reservationDateText');
-                    label.textContent = '희망 날짜를 선택해 주세요.';
+                    label.textContent = 'Vui lòng chọn ngày';
                     document.getElementById('reservationDate').value = '';
         
                     resetTime();
@@ -475,7 +476,7 @@
         
                 function resetTime(){
                     const label = document.querySelector('#reservationTimeText')
-                    label.textContent = '희망 시간을 선택해 주세요.';
+                    label.textContent = 'Vui lòng chọn thời gian';
                     document.getElementById('reservationTime').value = ''
                 }
         
@@ -518,7 +519,7 @@
         
                         // date나 time 드롭다운을 클릭했을 때 branch가 선택되지 않은 경우
                         if ((dropdownType === 'date' || dropdownType === 'time') && !branchValue) {
-                            alert('지점을 먼저 선택해 주세요.');
+                            alert('Vui lòng chọn dịch vụ');
                             return;
                         }
         
@@ -526,7 +527,7 @@
                         if (dropdownType === 'time') {
                             const dateValue = document.getElementById('reservationDate').value;
                             if (!dateValue) {
-                                alert('날짜를 먼저 선택해 주세요.');
+                                alert('Vui lòng chọn ngày');
                                 return;
                             }
                         }
@@ -622,7 +623,8 @@
                 reservationSubmit();
             });
         
-        </script><link rel="stylesheet" href="css/popup.css">
+        </script>
+        <link rel="stylesheet" href="css/popup.css">
         <link rel="stylesheet" href="css/brand_renew2025.css">
         
         
