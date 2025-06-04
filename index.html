@@ -289,7 +289,7 @@
             <div id="quick-counsel-wrap">
                 <div id="quick-counsel-close" onclick="closeQuickDropdown()"></div>
                 <button onclick="" type="button" class="quick-counsel-wrap__button" fdprocessedid="hnqwz"> 
-                   <a href="https://forms.gle/eHAzLrF2kuYhCno79" target="_blank"><span>Đặt Lịch Tại Đây</span></a>
+                  <span>Đặt Lịch Tại Đây</span>
                 </button>
                 <div class="quick-counsel-wrap__line"></div>
                 <form action="" name="reservationForm" id="reservationForm">
@@ -308,50 +308,18 @@
                             </div>
                             <div class="dropdown-container">
                                 <ul class="dropdown dropdown-branch" data-dropdown="branch">
-                                                                <li data-value="T00002">강남본점</li>
-                                                                <li data-value="T00012">강동천호점</li>
-                                                                <li data-value="T00016">강서점</li>
-                                                                <li data-value="T00048">건대점</li>
-                                                                <li data-value="T00013">관악서울대입구점</li>
-                                                                <li data-value="T00032">광주점</li>
-                                                                <li data-value="T00025">구리점</li>
-                                                                <li data-value="T00017">김포점</li>
-                                                                <li data-value="T00011">노원점</li>
-                                                                <li data-value="T00010">명동점</li>
-                                                                <li data-value="T00057">목동점</li>
-                                                                <li data-value="T00046">미아사거리점</li>
-                                                                <li data-value="T00028">부산서면점</li>
-                                                                <li data-value="T00090">부천점</li>
-                                                                <li data-value="T00049">분당점</li>
-                                                                <li data-value="T00074">세종점</li>
-                                                                <li data-value="T00015">송파점</li>
-                                                                <li data-value="T00020">수원인계점</li>
-                                                                <li data-value="T00094">신논현점</li>
-                                                                <li data-value="T00022">안산점</li>
-                                                                <li data-value="T00026">안양점</li>
-                                                                <li data-value="T00004">압구정점</li>
-                                                                <li data-value="T00058">원주점</li>
-                                                                <li data-value="T00047">이천점</li>
-                                                                <li data-value="T00021">인천부평점</li>
-                                                                <li data-value="T00093">인천송도점</li>
-                                                                <li data-value="T00059">일산주엽점</li>
-                                                                <li data-value="T00045">전주점</li>
-                                                                <li data-value="T00068">제주점</li>
-                                                                <li data-value="T00031">천안불당점</li>
-                                                                <li data-value="T00043">천안신부점</li>
-                                                                <li data-value="T00035">청주점</li>
-                                                                <li data-value="T00073">파주점</li>
-                                                                <li data-value="T00036">평택점</li>
-                                                        </ul>
+                                     <li data-value="T00002">Lê Hồng Phong</li>
+                                 </ul>
                                 <div class="dropdown-container__input dropdown-container2" data-dropdown="branch">
-                                    <div id="reservationBranchText">Vui lòng chọn dịch vụ</div><span>*</span>
+                                    <div id="reservationBranchText">Vui lòng chọn chi nhánh</div><span>*</span>
                                 </div>
                             </div>
                             <div class="dropdown-container">
                                 <div class="dropdown dropdown-date renew_reservation" id="reservationDayListDiv" data-dropdown="date"></div>
-                                <div class="dropdown-container__input dropdown-container2" data-dropdown="date">
+                                <div class="dropdown-container__input dropdown-container2" data-dropdown="date" onclick="document.getElementById('hiddenDateInput').click();">
                                     <div id="reservationDateText">Vui lòng chọn ngày</div><span>*</span>
                                 </div>
+                                <input type="date" id="hiddenDateInput" style="display: none;">
                             </div>
                             <div class="dropdown-container">
                                 <div class="dropdown dropdown-time renew_reservation" data-dropdown="time">
@@ -463,7 +431,6 @@
                             agreeList.forEach(item =>  item.checked = e.target.checked);
                         });
                     }
-                    // getAjaxData('reservationDayListDiv','/_newTimeBrand.php','1');
                 });
         
                 function resetDate() {
