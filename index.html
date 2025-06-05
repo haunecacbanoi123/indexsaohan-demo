@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-        <!--브랜드용 brand-top.php-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=1200,user-scalable=no">
         <meta name="format-detection" content="telephone=no">
@@ -17,21 +15,6 @@
         
         
         <title>SaohanDeluxe</title>
-        <!-- <link rel="canonical" href="https://www.toxnfill.com/">
-        <meta name="keywords" content="톡스앤필, 피부과, 보톡스, 필러, 윤곽주사, 리프팅, 턱끝필러, 다이어트, 제모, 제로핏, 쁘띠, 피부관리, 체형관리, 레이저, 여드름, 쁘띠스타일리스트, 전문가, 시술, 가장 유명한 피부과, 피부과추천, 브랜드">
-        <meta name="description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
-        <meta property="og:image" content="/imges/toxnfill_thumb.png">
-        <meta property="og:locale" content="ko_KR">
-        <meta property="og:type" content="website"> 
-        <meta property="og:site_name" content="톡스앤필 브랜드">
-        <meta property="og:title" content="톡스앤필 브랜드">
-        <meta property="og:description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
-        <meta property="og:url" content="https://www.toxnfill.com/">
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@toxnfill">
-        <meta name="twitter:title" content="톡스앤필 브랜드">
-        <meta name="twitter:description" content="보톡스, 필러, 리프팅, 쁘띠성형, 비만, 정품, 정량, 정성">
-        <meta name="twitter:image" content="/imges/toxnfill_thumb.png"> -->
         
         <!-- favicon -->
         <link rel="icon" type="image/png" sizes="40x40" href="images/logosaohan.png">
@@ -46,27 +29,14 @@
         <link rel="stylesheet" href="css/brand.layout.css">
         <link rel="stylesheet" href="css/brand.css">
         
-        <!-- <script async="" src="//fs.bizspring.net/fs4/bstrk.1.js"></script>
-        <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script> -->
+    
         <script src="common/js/jquery-1.12.4.min.js"></script>
         <script src="common/js/swiper.min.js"></script>
         <script src="common/js/default.js"></script>
-        <!-- 브랜드페이지 js추가 -->
-        <!--<script src="/common/js/brand.js"></script>-->
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-G08LC2DML3"></script> -->
-        <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'G-G08LC2DML3');
-        </script>
-         -->
+       
         
         <script>
-        //디바이스 종류(Mobile, PC, Tablet)
+       
         function deviceKind()
         {
             //	모바일 Device종류(윈도우 폰은 앞으로 나오지 않기 때문에 빼도 무방하나 아직 쓰는 사람이 존재하기에..)
@@ -87,7 +57,7 @@
         
         var fragment = window.location.hash;
         
-        if ( "/" == "/m/" ) {																//	Mobile 주소로 접속 했다면
+        if ( "/" == "/m/" ) {																//	
             if ( device == "PC" ) {
                 if (fragment.includes('region_')) {
                     location.href			=	"#/"+fragment;
@@ -95,7 +65,7 @@
                     location.href			=	"#";
                 }
             } else if ( device == "Tablet" ) {
-                if ( parseInt(screenWidth) > 767 ) {														//	PC 이동
+                if ( parseInt(screenWidth) > 767 ) {														//	PC 
                     if (fragment.includes('region_')) {
                         location.href			=	"#"+fragment;
                     }else{
@@ -103,7 +73,7 @@
                     }
                 }
             }
-        } else {																							//	PC 주소로 접속 했다면
+        } else {																							//	PC 
             if ( device == "Mobile" ) {
                 if (fragment.includes('region_')) {
                     location.href			=	"#"+fragment;
@@ -111,7 +81,7 @@
                     location.href			=	"#/"
                 }
             } else if ( device == "Tablet" ) {
-                if ( parseInt(screenWidth) < 768 ) {														//	Mobile 이동
+                if ( parseInt(screenWidth) < 768 ) {														//	Mobile 
                     if (fragment.includes('region_')) {
                         location.href			=	"#"+fragment;
                     }else{
@@ -123,7 +93,7 @@
         </script>
         
         
-        <!-- <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script> -->
+       
         <script type="text/javascript">
                 if(window.wcs) {
                 if (!wcs_add) var wcs_add = {};
@@ -288,9 +258,9 @@
         <body class="main brand-renew">
             <div id="quick-counsel-wrap">
                 <div id="quick-counsel-close" onclick="closeQuickDropdown()"></div>
-                <button onclick="" type="button" class="quick-counsel-wrap__button" fdprocessedid="hnqwz"> 
+                <!-- <button onclick="" type="button" class="quick-counsel-wrap__button" fdprocessedid="hnqwz"> 
                   <span>Đặt Lịch Tại Đây</span>
-                </button>
+                </button> -->
                 <div class="quick-counsel-wrap__line"></div>
                 <form action="" name="reservationForm" id="reservationForm">
                     <input type="hidden" name="reservationBranch" id="reservationBranch" value="">
