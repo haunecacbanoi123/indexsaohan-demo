@@ -18,7 +18,7 @@
         
         <!-- favicon -->
         <link rel="icon" type="image/png" sizes="40x40" href="images/logosaohan.png">
-        <link rel="manifest" href="site.webmanifest">
+     
         
         <!-- css -->
         <link rel="stylesheet" href="css/reset.css">
@@ -39,25 +39,25 @@
        
         function deviceKind()
         {
-            //	모바일 Device종류(윈도우 폰은 앞으로 나오지 않기 때문에 빼도 무방하나 아직 쓰는 사람이 존재하기에..)
+            
             var mobileFlag				=	/Mobile|iP(hone|od)|Windows (CE|Phone)|Minimo|Opera M(obi|ini)|BlackBerry|Nokia/;
         
-            if (navigator.userAgent.match(mobileFlag) && !navigator.userAgent.match(/iPad/)) {				//	모바일일경우
+            if (navigator.userAgent.match(mobileFlag) && !navigator.userAgent.match(/iPad/)) {				
                 return "Mobile";
-            } else if (navigator.userAgent.match(/iPad|Android/)) {											//	모바일 Device와 Android가 포함이 안되어 있을 경우
+            } else if (navigator.userAgent.match(/iPad|Android/)) {											
                 return "Tablet";
-            } else {																						//	그 외의 경우 모두 테블릿
+            } else {																						
                 return "PC";
             }
         }
         
-        var screenWidth					=	screen.width;													//	가로 해상도
-        var screenHeight				=	screen.height;													//	세로 해상도
+        var screenWidth					=	screen.width;													
+        var screenHeight				=	screen.height;													
         var device						=	deviceKind();
         
         var fragment = window.location.hash;
         
-        if ( "/" == "/m/" ) {																//	
+        if ( "/" == "/m/" ) {																	
             if ( device == "PC" ) {
                 if (fragment.includes('region_')) {
                     location.href			=	"#/"+fragment;
@@ -65,7 +65,7 @@
                     location.href			=	"#";
                 }
             } else if ( device == "Tablet" ) {
-                if ( parseInt(screenWidth) > 767 ) {														//	PC 
+                if ( parseInt(screenWidth) > 767 ) {														
                     if (fragment.includes('region_')) {
                         location.href			=	"#"+fragment;
                     }else{
@@ -73,7 +73,7 @@
                     }
                 }
             }
-        } else {																							//	PC 
+        } else {																							
             if ( device == "Mobile" ) {
                 if (fragment.includes('region_')) {
                     location.href			=	"#"+fragment;
@@ -81,7 +81,7 @@
                     location.href			=	"#/"
                 }
             } else if ( device == "Tablet" ) {
-                if ( parseInt(screenWidth) < 768 ) {														//	Mobile 
+                if ( parseInt(screenWidth) < 768 ) {														
                     if (fragment.includes('region_')) {
                         location.href			=	"#"+fragment;
                     }else{
@@ -91,483 +91,15 @@
             }
         }
         </script>
-        
-        
-       
-        <script type="text/javascript">
-                if(window.wcs) {
-                if (!wcs_add) var wcs_add = {};
-                wcs_add["wa"] = "s_15f42bac7f3f";
-                wcs.inflow("www.toxnfill.com");
-                wcs_do();
-            }
-                    !function (f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function () {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }
-            (window, document, 'script',
-                '#');
-        
-            fbq('init', '129198215752836'); // Meta Pixel ID 입력
-            fbq('track', 'PageView'); // 페이지 방문 추적
-            </script>
-        <noscript><img height="1" width="1" style="display:none"
-                       src="https://www.facebook.com/tr?id=129198215752836&ev=PageView&noscript=1"/></noscript>
-        <script type="text/javascript" charset="UTF-8" src="#"></script>
-        <script type="text/javascript">
-            kakaoPixel('1263615753071475102').pageView();
-        </script>
-        
-        <script src="#" type="text/javascript"></script>
-        
-        <script type="text/javascript">
-            var _TRK_LID = "113991";
-            var _L_TD = "ssl.logger.co.kr";
-            var _TRK_CDMN = ".toxnfill.com";
-        </script>
-        <script type="text/javascript">
-            var _CDN_DOMAIN = location.protocol == "https:" ? "https://fs.bizspring.net" : "http://fs.bizspring.net";
-            (function (b, s) {
-                var f = b.getElementsByTagName(s)[0], j = b.createElement(s);
-                j.async = true;
-                j.src = "#";
-                f.parentNode.insertBefore(j, f);
-            })(document, "script");
-        </script>
-        <noscript><img alt="Logger Script" width="1" height="1" src="http://ssl.logger.co.kr/tracker.1.tsp?u=113991&amp;js=N"/></noscript>
-        
-        <script type="text/javascript">
-            function counselScript() {
-                        if (window.wcs) {
-                    if (!wcs_add) var wcs_add = {};
-                    wcs_add["wa"] = "s_15f42bac7f3f";
-                    var _conv = {};
-                    _conv.type = 'lead';
-                    wcs.trans(_conv);
-                                _conv.type = 'schedule';
-                    wcs.trans(_conv);
-                            }
-                            fbq('track', 'Purchase', {
-                        currency: 'KRW',
-                        value: 0.00
-                    });
-                            kakaoPixel('1263615753071475102').pageView();
-                    kakaoPixel('1263615753071475102').purchase();
-                        var across_adn_complete_contain = new fn_across_adn_contain();
-                var across_adn_complete_param = [];
-                across_adn_complete_param = {"ut":"Complete","ui":"102135","uo":"types1"};
-                across_adn_complete_contain.init(across_adn_complete_param);
-                
-                            _TRK_PI = "RGR";
-                    _TRK_SX = "";
-                    _TRK_AG = "";
-                    }
-        
-            function brandCounselButtonClick(eventName){
-                                fbq('trackCustom', 'ConsultingBranch', {
-                    button_name: '브랜드_지점예약하기'
-                });
-                        kakaoPixel('1263615753071475102').pageView();
-                kakaoPixel('1263615753071475102').signUp();
-                        fn_across_adn_btn_ok('102135','types2');
-                
-                        _TRK_G3 = "1";
-                try {
-                    _trk_clickTrace('EVT', eventName);
-                } catch (_e) {
-                }
-                    }
-        
-            function branchClick(eventName){
-                        
-                
-                
-                
-                        try {
-                    _trk_clickTrace('EVT', eventName);
-                } catch (_e) {
-                }
-        
-                    }
-        
-            function counselBtnClick(){
-                        fbq('trackCustom', 'ConsultingTalk', {
-                    button_name: '상담 신청'
-                });
-                                kakaoPixel('1263615753071475102').pageView();
-                kakaoPixel('1263615753071475102').participation('Consulting');
-                                if(window.wcs){
-                    if(!wcs_add) var wcs_add = {};
-                    wcs_add['wa'] = 's_15f42bac7f3f';
-                    var _conv = {};
-                    _conv.type = 'inquiry';
-                    wcs.trans(_conv);
-                }
-        
-                                fn_across_adn_btn_ok('102135','types4');
-                
-                _trk_flashEnvView('_TRK_PI=RGR');
-            }
-        
-        
-        
-        </script>
         <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/datepicker.css">
         <link rel="stylesheet" href="css/pg_reservation.css">
         <link rel="stylesheet" href="css/quickCounsel.css">
-        <script>
-            function getAjaxData(divID, goURL, gubun, corpCode, tcode = '', date = '')
-            {
-        
-                QC.addLoader(divID);
-                $.ajax({
-                    url						:	goURL,
-                    type					:	"POST",
-                    data					:
-                        {
-                            gubun					:	gubun
-                            ,corpCode : corpCode
-                            ,tcode : tcode
-                            ,date : date
-                        },
-                    dataType				:	"html",
-                    contentType				:	"application/x-www-form-urlencoded; charset=UTF-8",
-                    async					:	true,
-                    success					:	function (data)
-                    {
-                        $( "#" + divID ).html(data);
-                    }
-                });
-            }
-        </script>
         </head>
         <body class="main brand-renew">
-            <div id="quick-counsel-wrap">
-                <div id="quick-counsel-close" onclick="closeQuickDropdown()"></div>
-                <!-- <button onclick="" type="button" class="quick-counsel-wrap__button" fdprocessedid="hnqwz"> 
-                  <span>Đặt Lịch Tại Đây</span>
-                </button> -->
-                <div class="quick-counsel-wrap__line"></div>
-                <form action="" name="reservationForm" id="reservationForm">
-                    <input type="hidden" name="reservationBranch" id="reservationBranch" value="">
-                    <input type="hidden" name="reservationDate" id="reservationDate" value="">
-                    <input type="hidden" name="reservationTime" id="reservationTime" value="">
-                    <input type="hidden" name="gender" id="gender" value="">
-                    <div class="quick-counsel-content">
-                        <div class="quick-counsel-content__title">
-                            Tư Vấn Nhanh<br>Sao Han<br>Deluxe
-                        </div>
-                        <div class="quick-counsel-content__step1">
-                            <div class="chip">
-                                Bước
-                                <span>01</span>
-                            </div>
-                            <div class="dropdown-container">
-                                <ul class="dropdown dropdown-branch" data-dropdown="branch">
-                                     <li data-value="T00002">Lê Hồng Phong</li>
-                                 </ul>
-                                <div class="dropdown-container__input dropdown-container2" data-dropdown="branch">
-                                    <div id="reservationBranchText">Vui lòng chọn chi nhánh</div><span>*</span>
-                                </div>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown dropdown-date renew_reservation" id="reservationDayListDiv" data-dropdown="date"></div>
-                                <div class="dropdown-container__input dropdown-container2" data-dropdown="date" onclick="document.getElementById('hiddenDateInput').click();">
-                                    <div id="reservationDateText">Vui lòng chọn ngày</div><span>*</span>
-                                </div>
-                                <input type="date" id="hiddenDateInput" style="display: none;">
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown dropdown-time renew_reservation" data-dropdown="time">
-                                    <div class="rs-time-box">
-                                        <div class="time-box-scoll c_scroll reservation-box">
-                                            <ul class="row time-box" id="reservationTimeListDiv">
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="dropdown-container__input dropdown-container2" data-dropdown="time">
-                                    <div id="reservationTimeText">Vui lòng chọn thời gian</div><span>*</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="quick-counsel-content__step2">
-                            <div class="chip">
-                                Bước
-                                <span>02</span>
-                            </div>
-                            <div class="input-container">
-                                <div class="input-box">
-                                    <input type="text" placeholder="이름" name="reservationName" fdprocessedid="mrm8l">
-                                    <span class="input-placeholder required">Tên</span>
-                                </div>
-                                <div class="input-box">
-                                    <input type="text" placeholder="연락처" name="reservationMobile" fdprocessedid="owifr3">
-                                    <span class="input-placeholder required">Số điện thoại</span>
-                                </div>
-                                <div class="input-box dropdown-container">
-                                    <ul class="dropdown" data-dropdown="gender">
-                                        <li data-value="male">Nam</li>
-                                        <li data-value="female">Nữ</li>
-                                    </ul>
-                                    <div class="dropdown-container__input dropdown-container2" data-dropdown="gender">
-                                        <div id="genderText">Giới tính</div><span>*</span>
-                                    </div>
-                                </div>
-                                <textarea type="text" placeholder="Yêu cầu tư vấn" name="reservationMemo"></textarea>
-                            </div>
-                        </div>
-                        <div class="quick-counsel-content__step3">
-                            <div class="checkbox">
-                                <input type="checkbox" id="allAgree" data-agree="all">
-                            </div>
-                            <button type="button" id="reservationAdd" fdprocessedid="lxepta">Gửi yêu cầu</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        <script src="common/js/jquery-ui.min.js"></script>
-        <script>
-            const QC = (function() {
-                const agreeAll = document.querySelector("[data-agree=all]"); 
-                const agreeList = document.querySelectorAll("[data-agree=item]");
-                document.addEventListener('DOMContentLoaded', function() {
-                    setAgreementHandlers();
-                    setQuickBranchHandlers();
-                    setQuickDropdownHandlers();
-                    setGenderHandlers();
-        
-                    function setGenderHandlers() {
-                        const label = document.querySelector('#genderText')
-                        const dropdowns = document.querySelectorAll('.dropdown[data-dropdown=gender] li');
-        
-                        dropdowns.forEach(dropdown => {
-                            dropdown.addEventListener('click', function(e) {
-                                document.getElementById('gender').value = dropdown.dataset.value;
-                                if(label.textContent === dropdown.textContent) return;
-                                label.textContent = dropdown.textContent;
-        
-                                dropdowns.forEach(el => el.classList.remove('active'));
-                                dropdown.classList.add('active');
-        
-                                closeQuickDropdown();
-                            });
-                        });
-                    }
-        
-                    function setQuickBranchHandlers() {
-                        const label = document.querySelector('#reservationBranchText')
-                        const dropdowns = document.querySelector('.dropdown-branch').querySelectorAll('li');
-        
-                        dropdowns.forEach(dropdown => {
-                            dropdown.addEventListener('click', function(e) {
-                                document.getElementById('reservationBranch').value = dropdown.dataset.value
-                                if(label.textContent === dropdown.textContent) return;
-                                label.textContent = dropdown.textContent;
-        
-                                dropdowns.forEach(el => el.classList.remove('active'));
-                                dropdown.classList.add('active');
-        
-                                resetDate();
-                                closeQuickDropdown();
-        
-                                getAjaxData('reservationDayListDiv','/_newTimeBrand.php','1',document.getElementById('reservationBranch').value);
-                            });
-                        });
-                    }
-           
-                    function setAgreementHandlers() {
-                        agreeList.forEach(checkbox => {
-                            checkbox.addEventListener('click', function() {
-                                agreeAll.checked = Array.from(agreeList).filter(item => item.checked).length === agreeList.length;
-                            });
-                        });
-        
-                        agreeAll.addEventListener("change", function(e) {
-                            agreeList.forEach(item =>  item.checked = e.target.checked);
-                        });
-                    }
-                });
-        
-                function resetDate() {
-                    const label = document.querySelector('#reservationDateText');
-                    label.textContent = 'Vui lòng chọn ngày';
-                    document.getElementById('reservationDate').value = '';
-        
-                    resetTime();
-                }
-        
-                function resetTime(){
-                    const label = document.querySelector('#reservationTimeText')
-                    label.textContent = 'Vui lòng chọn thời gian';
-                    document.getElementById('reservationTime').value = ''
-                }
-        
-                function addLoader(target) {
-                    document.getElementById(target).innerHTML = `
-                        <div class="counsel-loader">
-                            <div class="lds-facebook"><div></div><div></div><div></div></div>
-                        </div>
-                    `;
-                }
-        
-                return {
-                    resetDate,
-                    resetTime,
-                    addLoader
-                }
-            })();
-        
-            function toggleQuickCounsel() {
-                const element = document.getElementById('quick-counsel-wrap');
-                element.classList.toggle('active');
-                closeQuickDropdown();
-            }
-        
-            function closeQuickDropdown() {
-                const dropdownList = document.querySelectorAll('.dropdown');
-                dropdownList.forEach(element => {
-                    element.classList.remove('show');
-                    document.querySelector('#quick-counsel-close').classList.remove('active');
-                });
-            }
-        
-            function setQuickDropdownHandlers() {
-                const dropdownInputList = document.querySelectorAll('.dropdown-container2');
-                dropdownInputList.forEach(input => {
-                    input.addEventListener('click', function (e) {
-        
-                        const dropdownType = input.dataset.dropdown;
-                        const branchValue = document.getElementById('reservationBranch').value;
-        
-                        // date나 time 드롭다운을 클릭했을 때 branch가 선택되지 않은 경우
-                        if ((dropdownType === 'date' || dropdownType === 'time') && !branchValue) {
-                            alert('Vui lòng chọn dịch vụ');
-                            return;
-                        }
-        
-                        // time 드롭다운을 클릭했을 때 date가 선택되지 않은 경우
-                        if (dropdownType === 'time') {
-                            const dateValue = document.getElementById('reservationDate').value;
-                            if (!dateValue) {
-                                alert('Vui lòng chọn ngày');
-                                return;
-                            }
-                        }
-        
-                        document.querySelectorAll('.dropdown.show').forEach(item => {
-                            item.classList.remove('show');
-                        });
-                        const dropdown = document.querySelector(`[data-dropdown=${dropdownType}]`)
-                        const isActive = dropdown.classList.contains('show');
-                        // 드랍다운이 닫혀있던 상태였다면 열어줌
-        
-                        if (!isActive) {
-                            dropdown.classList.toggle('show');
-                            document.querySelector('#quick-counsel-close').classList.add('active');
-                        }
-                    })
-                })
-            }
-        
-            function reservationSubmit(){
-                let frm						=	document.reservationForm;
-        
-        
-                if(frm.reservationBranch.value == ''){
-                    alert('지점을 선택해 주세요.');
-                    return;
-                }
-                if(frm.reservationDate.value == ''){
-                    alert('날짜를 선택해 주세요.');
-                    return;
-                }
-                if(frm.reservationTime.value == ''){
-                    alert('시간을 선택해 주세요.');
-                    return;
-                }
-        
-                if(frm.reservationName.value == ''){
-                    alert('이름을 입력해 주세요.');
-                    frm.reservationName.focus();
-                    return;
-                }
-        
-                if(frm.reservationMobile.value == ''){
-                    alert('전화번호를 입력해 주세요.');
-                    frm.reservationMobile.focus();
-                    return;
-                }
-        
-                if(frm.gender.value == ''){
-                    alert('성별을 선택해 주세요.');
-                    frm.gender.focus();
-                    return;
-                }
-        
-                if(!frm.privacyAgree.checked){
-                    alert('필수 이용약관에 동의해 주세요.');
-                    frm.privacyAgree.focus();
-                    return;
-                }
-        
-                let form					=	document.querySelector("#reservationForm");
-                let postDate				=	new FormData(form);
-        
-                $.ajax({
-                    url						:	"/reservationProcBrand.php",
-                    type					:	"POST",
-                    data					:	postDate,
-                    dataType				:	"html",
-                    //contentType			:	"application/x-www-form-urlencoded; charset=UTF-8",
-                    async					:	true,
-                    cache					:	false,
-                    contentType				:	false,
-                    processData				:	false,
-                    success					:	function (data)
-                    {
-                        rsDate				=	data.replace( /(\s*)/g, "" );
-        
-        
-                        if(rsDate =='Y'){
-                            counselScript();
-                            alert("고객님의 상담신청이 완료되었습니다. 추후 지점에서 상담내용 확인하여 빠른 시일내로 연락을 드릴 예정입니다.");
-                        } else {
-                            alert("예약시 에러가 발생하였습니다. 다시 시도해 주세요.");
-                            return;
-                        }
-                        frm.action		=	"/";
-                        frm.submit();
-                    }
-                });
-            }
-        
-            $("#reservationAdd").on('click', function(){
-                reservationSubmit();
-            });
-        
-        </script>
         <link rel="stylesheet" href="css/popup.css">
         <link rel="stylesheet" href="css/brand_renew2025.css">
-        
-        
-        
         <div class="maxframe  pg-brand">
-        
             <!-- brand top menu -->
             <!-- brand top menu -->
             <div id="HWrapper" class="renewal">
@@ -705,10 +237,10 @@
                 var nowName = location.pathname;
                 if( nowName == '/' || nowName == '/brand.php' || nowName ==='/brandT.php'  || nowName == '/brand_renew.php') {
                     $('#header').addClass('main');
-                    //$('#header').addClass('white_ver main'); 흰색 네비 
+                    
                     $('#header').parent().removeClass('header_cover');
                     $('.global img').attr('src', '#');
-                    //$('.global img').attr('src', '/imges/brand/global_open_w.png'); 흰색 네비
+                   
                 }
             </script>
         </div>
@@ -851,7 +383,6 @@
                 <h2>PHẢN HỒI KHÁCH HÀNG</h2>
                 <p class="quote">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.”</p>
                 <p class="name">Anna Long</p>
-              
                 <!-- Avatar Images -->
                 <img src="images/fbavt1.jpg" class="avatar avatar1" />
                 <img src="images/fbavt1.jpg" class="avatar avatar2" />
@@ -941,19 +472,13 @@
                 });
             }
             setInterval(function() { rolling() }, 5000);
-        
         </script>
         <script>
             var hjNow = new Date();
             var hjNowYear = hjNow.getFullYear();
             $('#hjNowYear').html(hjNowYear);
         </script>
-        
-        
-        
-        
             </div>
-        
             <!--swiper event 공통이벤트팝업 -->
             <!-- <div id="brandPopup1" class="brand-popup" role="alertdialog" aria-modal="true" aria-hidden="true">
                 <div class="brandP-wrap">
@@ -984,302 +509,6 @@
         
         <script src="common/js/countUp.min.js"></script>
         <script src="common/js/vimeo.player.js"></script>
-        <script>
-            openPopup('brandPopup');
-        
-            document.addEventListener('DOMContentLoaded', function() {
-                setBrandPopupSwiper();
-                setBannerVideoPlayer();
-                initializeBranchTabFromHash();
-                setHashChangeHandler();
-                setEventSwiper();
-                setSignatureSwiper();
-                setSamjungSwiper();
-                setCountUp();
-                setMapBranchSpotAnimation();
-                setPopupEscHandler();
-            })
-        
-            function setBrandPopupSwiper() {
-                if(!1) return;
-                const mainEventSlideNum	=	$('.mainTabSlideWrap > .swiper-slide').length;
-                const brandPopSwiper = new Swiper('.brandP-swiper .swiper-container', {
-                    resistanceRatio: 0,
-                    pagination: {
-                        el: '.brandP-swiper .swiper-pagination',
-                        clickable: true,
-                        renderBullet: function (index, className) {
-                            const eTit = $(`.brandP-swiper .swiper-slide:eq(${index})`).attr('data-title');
-                            return `<div class="${className}"><p><span>${eTit}</span></p></div>`;
-                        },
-                    },
-                });
-        
-                mainEventSlideNum > 1 && brandPopSwiper.autoplay.start(5000);
-        
-                if(brandPopSwiper.autoplay.running) {
-                    $('.brandP-wrap .swiper-container').hover(
-                        () => brandPopSwiper.autoplay.stop(),
-                        () => brandPopSwiper.autoplay.start()
-                    );
-                };
-            }
-        
-            // 배너 영상비디오 플레이 세팅
-            function setBannerVideoPlayer() {
-                const mainIframeOptions = {
-                    id: 1073792401,
-                    controls: false,
-                    autoplay: true,
-                    muted: true,
-                    loop: true,
-                    background: true,
-                };
-        
-                const videoPlayer = new Vimeo.Player('mainBannerVideo', mainIframeOptions);
-                const videoElement = document.querySelector('#mainBannerVideo');
-                
-        
-                videoPlayer.setVolume(0);
-                videoPlayer.on('play', () => videoElement.classList.remove('end'))
-                videoPlayer.on('ended', () => videoElement.classList.add('end'));
-            }
-        
-            //	현 url의 hash를 분석해 어떤 도/시의 지점 탭을 보여줄지 설정
-            // 첫 방문은 해쉬가 존재하지 않음
-            function initializeBranchTabFromHash() {
-                if(window.location.hash) {
-                    const nowHashSplit = window.location.hash.split('/');
-                    document.querySelector(`#${nowHashSplit[1]}`).style.display = 'block';
-                    document.querySelector(`a[href="#branch/${nowHashSplit[1]}"]`).closest('li').classList.add('active');
-                } else {
-                    document.querySelectorAll('.branch-table')[0].style.display = 'block';
-                    document.querySelectorAll('#tab ul li')[0].classList.add('active');
-                }
-            }
-        
-            //	지점 탭메뉴 선택 이벤트 세팅
-            function setHashChangeHandler(){
-                $(window).on('hashchange', function(e){
-                    const hash = window.location.hash;
-                    if(!hash) return;
-        
-                    document.querySelectorAll('#tab ul li').forEach(item => item.classList.remove('active'))
-                    document.querySelector(`a[href="${hash}"]`).closest('li').classList.add('active');
-                    document.querySelectorAll('.branch-table').forEach(item => item.style.display = 'none');
-        
-                    const elementID = hash.split('/');
-                    document.querySelector(`#${elementID[1]}`).style.display = 'block';
-                });
-            }
-        
-            // 스와이퍼 옵저버 이벤트 세팅
-            function handleSwiperObserverAutoplay(swiperInstance, entries) {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        swiperInstance.autoplay.start();
-                    } else {
-                        swiperInstance.autoplay.stop();
-                        swiperInstance.slideTo(0);
-                    }
-                });
-            };
-        
-            // 스와이퍼 옵저버 세팅
-            function createSwiperObserver(swiperSelector, swiperInstance) {
-                const target = document.querySelector(swiperSelector);
-                if(!target || !swiperInstance) return;
-        
-                const observer = new IntersectionObserver(
-                    entries => handleSwiperObserverAutoplay(swiperInstance, entries),
-                    { threshold: 0.1 }
-                );
-                observer.observe(target);
-            };
-        
-            // 스와이퍼 생성
-            function makeSwiper(type) {
-                const swiper = new Swiper(`.${type}Swiper`, {
-                    slidesPerView: "auto",
-                    spaceBetween: 4,
-                    loop: true,
-                    observer: true,
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    navigation: {
-                        nextEl: `#${type}-button-next`,
-                        prevEl: `#${type}-button-prev`,
-                    },
-                    pagination: {
-                        el: `#${type}-swiper-pagination`,
-                        clickable: true,
-                    }
-                });
-                createSwiperObserver(`.${type}Swiper`, swiper);
-            }
-        
-            // 스와이퍼 미사용시 페이지네이션 hidden
-            function hiddenSwiperPagination(type) {
-                const swiper = document.querySelectorAll(`.${type}Swiper .swiper-slide`)
-                swiper.forEach((item, idx) => idx + 1 !== swiper.length && (item.style.marginRight = '4px'))
-                document.querySelector(`.${type}-section .swiper-button-wrap`).style.display = 'none';
-            }
-        
-            // 이벤트 스와이퍼 세팅
-            // 스와이퍼가가 3개 이상인 경우에만 작동하도록 스와이퍼 세팅
-            function setEventSwiper() {
-                const eventSwiperSize = document.querySelectorAll('.eventSwiper .swiper-slide').length;
-                eventSwiperSize > 2 ? makeSwiper('event') : hiddenSwiperPagination('event');
-            }
-        
-            // 시그니처 스와이퍼 세팅
-            // 스와이퍼가 4개 이상인 경우에만 작동하도록 스와이퍼 세팅
-            function setSignatureSwiper() {
-                const signatureSwiperSize = document.querySelectorAll('.signatureSwiper .swiper-slide').length;
-                signatureSwiperSize > 3 ? makeSwiper('signature') : hiddenSwiperPagination('signature');
-            }
-        
-            //3正 영역 스와이퍼
-            function setSamjungSwiper(){
-                new Swiper(".advertSwiper", {
-                    slidesPerView:'1',
-                    centeredSlides: true,
-                    loop: true,
-                    observer: true,
-                    autoplay: {
-                        delay: 4000,
-                        disableOnInteraction: false,
-                    },
-                    pagination: {
-                        el: ".advertSwiper .swiper-pagination",
-                        clickable: true,
-                    },
-                });
-            }
-        
-            // 카운트업 세팅
-            function setCountUp() {
-                document.querySelectorAll('# [data-count-up]').forEach(item => {
-                    const count = Number(item.getAttribute('data-count-up'))
-                    const id = item.getAttribute('id');
-                    const c = new countUp.CountUp(id, count, {
-                        enableScrollSpy: true,
-                        scrollSpyOnce: true,
-                        duration: 3,
-                        separator: item.getAttribute('data-separator') || ''
-                    });
-                })
-            }
-        
-            // 지도 내의 지점 소개 애니메이션 세팅
-            function setMapBranchSpotAnimation(){
-                let isSpotShow = false;
-                const spots = document.querySelectorAll('.brand-spot');
-        
-                const io = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if(entry.intersectionRatio > 0 && !isSpotShow) {
-                            isSpotShow = true;
-                            spots.forEach((item, idx) => setTimeout(() => item.classList.add('active'), idx * 120));
-                            setTimeout(
-                                () => spots.forEach(item => item.classList.remove('active')),
-                                spots.length * 120 + 1800
-                            );
-                        }
-                    })
-                });
-        
-                io.observe($('.brand-spot-btn')[0]);
-            }
-        
-            // 팝업 esc 닫기
-            function setPopupEscHandler() {
-                document.addEventListener('keydown', (e) => e.keyCode === 27 && closePopup('1', '2'))
-            }
-        
-            //메인 팝업 닫기
-            function closePopup(target, type){
-                $('#brandPopup' + target).attr('aria-hidden', 'true').removeClass('on');
-        
-                if(type == 1) {
-                    setCookie(`brandPopup${target}`, "done" , 1)
-                }
-        
-                $('.dimmer').removeClass('on');
-                document.activeElement.blur();
-            }
-        
-            //메인 팝업 열기(쿠키에 없으면 보이고 있으면 안보임)
-            function openPopup(target){
-                var $target;
-                var cookieDone;
-                cookiedata = document.cookie;
-                //나중에 3대신 공지팝업 갯수만큼 루프
-                for(var i=1; i < 3; i++){
-                    $target		=	$('#' + target + i);
-                    cookieDone	=	target + i + '=done';
-                    if ( cookiedata.indexOf(cookieDone) < 0 ){
-                        $target.attr('aria-hidden', 'false').addClass('on');
-                        $('.dimmer').addClass('on');
-                    }
-                    else {
-                        $target.attr('aria-hidden', 'true').removeClass('on');
-                    }
-                }
-            };
-        
-            // 쿠키 가져오기
-            function getCookie( name ) {
-                var nameOfCookie = name + "=";
-                var x = 0;
-                while ( x <= document.cookie.length ){
-                    var y = (x+nameOfCookie.length);
-                    if ( document.cookie.substring( x, y ) == nameOfCookie ) {
-                        if ((endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
-                            endOfCookie = document.cookie.length;
-                        return unescape( document.cookie.substring( y, endOfCookie ) );
-                    }
-                    x = document.cookie.indexOf( " ", x ) + 1;
-                    if ( x == 0 )
-                        break;
-                }
-                return "";
-            }
-        
-            //쿠키 설정
-            function setCookie( name, value, expiredays ){
-                var todayDate				=	new Date();
-                todayDate.setDate( todayDate.getDate() + parseInt(expiredays) );
-                todayDate.setHours(0,0,0,0);
-                document.cookie				=	name + "=" + escape( value ) + "; path=/; domain=www.toxnfill.com; expires=" + todayDate.toGMTString() + ";";
-            }
-        
-            // 페이지 이동
-            function goHref(code, goURL)
-            {
-                $.ajax({
-                    url						:	"/_clickEvetn.php",
-                    type					:	"POST",
-                    data					:
-                        {
-                            code					:	code,
-                            gubun					:	"1"
-                        },
-                    dataType				:	"html",
-                    contentType				:	"application/x-www-form-urlencoded; charset=UTF-8",
-                    async					:	true,
-                    success					:	function (data)
-                    {
-                        //console.log(data);
-                        window.open("about:blank").location.href	=	goURL;
-                    }
-                });
-            }
-        </script>
-        
-        
         <!-- <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span> -->
     </body>
 </html>
